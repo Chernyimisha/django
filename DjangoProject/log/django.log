@@ -1,0 +1,31 @@
+Watching for file changes with StatReloader
+C:\Users\chern\Documents\PythonCourse\DjangoCourse\DjangoProject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\chern\Documents\PythonCourse\DjangoCourse\DjangoProject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\chern\Documents\PythonCourse\DjangoCourse\DjangoProject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\chern\Documents\PythonCourse\DjangoCourse\DjangoProject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\chern\Documents\PythonCourse\DjangoCourse\DjangoProject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\chern\Documents\PythonCourse\DjangoCourse\DjangoProject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /about/ HTTP/1.1" 200 27
+"GET / HTTP/1.1" 200 13
+C:\Users\chern\Documents\PythonCourse\DjangoCourse\DjangoProject\DjangoProject\settings.py changed, reloading.
+INFO 2024-03-27 16:40:30,489 autoreload 20176 18484 Watching for file changes with StatReloader
+WARNING 2024-03-27 16:40:50,092 log 20176 32 Not Found: /aboute
+WARNING 2024-03-27 16:40:50,092 basehttp 20176 32 "GET /aboute HTTP/1.1" 404 2430
+ERROR 2024-03-27 16:41:06,394 views 20176 6940 Error in about page: division by zero
+Traceback (most recent call last):
+  File "C:\Users\chern\Documents\PythonCourse\DjangoCourse\DjangoProject\myapp\views.py", line 15, in about
+    result = 1 / 0
+ZeroDivisionError: division by zero
+INFO 2024-03-27 16:41:06,396 basehttp 20176 6940 "GET /about/ HTTP/1.1" 200 27
+INFO 2024-03-27 16:41:11,617 views 20176 10148 Index page accessed
+INFO 2024-03-27 16:41:11,618 basehttp 20176 10148 "GET / HTTP/1.1" 200 13
+INFO 2024-03-27 17:31:00,210 autoreload 19992 22480 Watching for file changes with StatReloader
+INFO 2024-03-27 17:31:27,446 autoreload 10600 12396 Watching for file changes with StatReloader
+INFO 2024-03-27 17:31:30,644 views 10600 9824 Index page accessed
+INFO 2024-03-27 17:31:30,645 basehttp 10600 9824 "GET / HTTP/1.1" 200 13
