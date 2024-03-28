@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "tasksApp",
+    "tasksapp",
 ]
 
 MIDDLEWARE = [
@@ -154,7 +154,7 @@ LOGGING = {
             'handlers': ['console', 'file'],
             'level': 'INFO',
         },
-        'tasksApp': {
+        'tasksapp': {
             'handlers': ['console', 'file'],
             'level': 'DEBUG',
             'propagate': True,

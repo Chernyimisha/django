@@ -32,3 +32,96 @@ INFO 2024-03-27 20:22:52,662 basehttp 21352 8348 "GET /taskApp/main/ HTTP/1.1" 2
 INFO 2024-03-27 20:25:32,831 autoreload 21352 21412 C:\Users\chern\Documents\PythonCourse\DjangoCourse\seminars\tasksApp\views.py changed, reloading.
 INFO 2024-03-27 20:25:33,420 autoreload 2952 21944 Watching for file changes with StatReloader
 INFO 2024-03-27 20:25:49,112 basehttp 2952 22036 "GET /taskApp/about/ HTTP/1.1" 200 215
+INFO 2024-03-28 00:31:19,107 autoreload 14268 5016 Watching for file changes with StatReloader
+WARNING 2024-03-28 00:31:27,589 log 14268 23776 Not Found: /orders/
+WARNING 2024-03-28 00:31:27,590 basehttp 14268 23776 "GET /orders/ HTTP/1.1" 404 2102
+WARNING 2024-03-28 00:31:31,787 log 14268 23776 Not Found: /
+WARNING 2024-03-28 00:31:31,788 basehttp 14268 23776 "GET / HTTP/1.1" 404 2063
+WARNING 2024-03-28 00:31:36,196 log 14268 6084 Not Found: /tasks/
+WARNING 2024-03-28 00:31:36,197 basehttp 14268 6084 "GET /tasks/ HTTP/1.1" 404 2099
+WARNING 2024-03-28 00:31:39,401 log 14268 6084 Not Found: /trows
+WARNING 2024-03-28 00:31:39,403 basehttp 14268 6084 "GET /trows HTTP/1.1" 404 2096
+INFO 2024-03-28 00:32:56,223 autoreload 14268 5016 C:\Users\chern\Documents\PythonCourse\DjangoCourse\seminars\seminars\urls.py changed, reloading.
+INFO 2024-03-28 00:32:56,887 autoreload 22912 13216 Watching for file changes with StatReloader
+INFO 2024-03-28 00:33:01,536 basehttp 22912 23448 "GET /tasksapp/trows HTTP/1.1" 301 0
+ERROR 2024-03-28 00:33:01,698 log 22912 23996 Internal Server Error: /tasksapp/trows/
+Traceback (most recent call last):
+  File "C:\Users\chern\Documents\PythonCourse\DjangoCourse\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\chern\Documents\PythonCourse\DjangoCourse\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\chern\Documents\PythonCourse\DjangoCourse\seminars\tasksapp\views.py", line 18, in trows
+    result = choice['орёл', 'решка']
+TypeError: 'method' object is not subscriptable
+ERROR 2024-03-28 00:33:01,700 basehttp 22912 23996 "GET /tasksapp/trows/ HTTP/1.1" 500 65515
+INFO 2024-03-28 00:36:23,223 autoreload 22912 13216 C:\Users\chern\Documents\PythonCourse\DjangoCourse\seminars\tasksapp\views.py changed, reloading.
+INFO 2024-03-28 00:36:23,933 autoreload 6024 13080 Watching for file changes with StatReloader
+INFO 2024-03-28 00:37:58,667 autoreload 6024 13080 C:\Users\chern\Documents\PythonCourse\DjangoCourse\seminars\tasksapp\views.py changed, reloading.
+INFO 2024-03-28 00:37:59,114 autoreload 18548 19988 Watching for file changes with StatReloader
+ERROR 2024-03-28 00:38:03,899 log 18548 11776 Internal Server Error: /tasksapp/trows/
+Traceback (most recent call last):
+  File "C:\Users\chern\Documents\PythonCourse\DjangoCourse\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\chern\Documents\PythonCourse\DjangoCourse\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\chern\Documents\PythonCourse\DjangoCourse\seminars\tasksapp\views.py", line 19, in trows
+    trows = Throws(res_trows=result, time_trows=datetime_trows)
+  File "C:\Users\chern\Documents\PythonCourse\DjangoCourse\venv\lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: Throws() got unexpected keyword arguments: 'res_trows', 'time_trows'
+ERROR 2024-03-28 00:38:03,901 basehttp 18548 11776 "GET /tasksapp/trows/ HTTP/1.1" 500 72892
+INFO 2024-03-28 00:39:17,557 autoreload 18548 19988 C:\Users\chern\Documents\PythonCourse\DjangoCourse\seminars\tasksapp\models.py changed, reloading.
+INFO 2024-03-28 00:39:18,119 autoreload 11068 13212 Watching for file changes with StatReloader
+INFO 2024-03-28 00:39:38,020 autoreload 19396 18068 Watching for file changes with StatReloader
+ERROR 2024-03-28 00:39:44,186 log 19396 10312 Internal Server Error: /tasksapp/trows/
+Traceback (most recent call last):
+  File "C:\Users\chern\Documents\PythonCourse\DjangoCourse\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\chern\Documents\PythonCourse\DjangoCourse\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\chern\Documents\PythonCourse\DjangoCourse\seminars\tasksapp\views.py", line 19, in trows
+    trows = Throws(res_trows=result, time_trows=datetime_trows)
+  File "C:\Users\chern\Documents\PythonCourse\DjangoCourse\venv\lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: Throws() got unexpected keyword arguments: 'res_trows', 'time_trows'
+ERROR 2024-03-28 00:39:44,188 basehttp 19396 10312 "GET /tasksapp/trows/ HTTP/1.1" 500 72903
+INFO 2024-03-28 00:40:46,216 autoreload 19396 18068 C:\Users\chern\Documents\PythonCourse\DjangoCourse\seminars\tasksapp\views.py changed, reloading.
+INFO 2024-03-28 00:40:46,628 autoreload 14740 19828 Watching for file changes with StatReloader
+ERROR 2024-03-28 00:40:56,332 log 14740 12884 Internal Server Error: /tasksapp/trows/
+Traceback (most recent call last):
+  File "C:\Users\chern\Documents\PythonCourse\DjangoCourse\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\chern\Documents\PythonCourse\DjangoCourse\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\chern\Documents\PythonCourse\DjangoCourse\seminars\tasksapp\views.py", line 21, in trows
+    trows = Throws(res_trows=result, time_trows=datetime_trows)
+  File "C:\Users\chern\Documents\PythonCourse\DjangoCourse\venv\lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: Throws() got unexpected keyword arguments: 'res_trows', 'time_trows'
+ERROR 2024-03-28 00:40:56,333 basehttp 14740 12884 "GET /tasksapp/trows/ HTTP/1.1" 500 72847
+INFO 2024-03-28 00:42:22,644 autoreload 14740 19828 C:\Users\chern\Documents\PythonCourse\DjangoCourse\seminars\tasksapp\views.py changed, reloading.
+INFO 2024-03-28 00:42:23,076 autoreload 21064 14232 Watching for file changes with StatReloader
+WARNING 2024-03-28 00:42:31,775 log 21064 9560 Not Found: /tasksapp/trows/
+WARNING 2024-03-28 00:42:31,776 basehttp 21064 9560 "GET /tasksapp/trows/ HTTP/1.1" 404 2725
+INFO 2024-03-28 00:43:01,075 views 21064 16700 throws successful
+INFO 2024-03-28 00:43:01,076 basehttp 21064 16700 "GET /tasksapp/throws/ HTTP/1.1" 200 89
+INFO 2024-03-28 00:43:42,669 autoreload 21064 14232 C:\Users\chern\Documents\PythonCourse\DjangoCourse\seminars\tasksapp\views.py changed, reloading.
+INFO 2024-03-28 00:43:43,254 autoreload 21612 17256 Watching for file changes with StatReloader
+INFO 2024-03-28 00:43:51,096 views 21612 10808 throws successful
+INFO 2024-03-28 00:43:51,097 basehttp 21612 10808 "GET /tasksapp/throws/ HTTP/1.1" 200 110
+INFO 2024-03-28 00:43:54,034 views 21612 10808 throws successful
+INFO 2024-03-28 00:43:54,034 basehttp 21612 10808 "GET /tasksapp/throws/ HTTP/1.1" 200 110
+INFO 2024-03-28 00:43:54,913 views 21612 13348 throws successful
+INFO 2024-03-28 00:43:54,914 basehttp 21612 13348 "GET /tasksapp/throws/ HTTP/1.1" 200 110
+INFO 2024-03-28 00:43:55,604 views 21612 13348 throws successful
+INFO 2024-03-28 00:43:55,605 basehttp 21612 13348 "GET /tasksapp/throws/ HTTP/1.1" 200 110
+INFO 2024-03-28 00:43:56,355 views 21612 13348 throws successful
+INFO 2024-03-28 00:43:56,355 basehttp 21612 13348 "GET /tasksapp/throws/ HTTP/1.1" 200 108
+INFO 2024-03-28 00:43:58,067 views 21612 13348 throws successful
+INFO 2024-03-28 00:43:58,068 basehttp 21612 13348 "GET /tasksapp/throws/ HTTP/1.1" 200 108
+INFO 2024-03-28 00:43:58,849 views 21612 13348 throws successful
+INFO 2024-03-28 00:43:58,850 basehttp 21612 13348 "GET /tasksapp/throws/ HTTP/1.1" 200 108
+INFO 2024-03-28 00:43:59,783 views 21612 22596 throws successful
+INFO 2024-03-28 00:43:59,783 basehttp 21612 22596 "GET /tasksapp/throws/ HTTP/1.1" 200 108
+INFO 2024-03-28 00:44:00,386 views 21612 22596 throws successful
+INFO 2024-03-28 00:44:00,387 basehttp 21612 22596 "GET /tasksapp/throws/ HTTP/1.1" 200 110
