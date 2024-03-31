@@ -1,6 +1,6 @@
 from django.shortcuts import HttpResponse
 from random import choice
-from datetime import datetime
+
 from .models import Throws
 import logging
 
@@ -14,9 +14,8 @@ def index(request):
 
 
 def throws(request):
-    datetime_throws = datetime.now()
     result = choice(['орёл', 'решка'])
-    throws = Throws(res_throws=result, time_throws=datetime_throws)
+    throws = Throws(res_throws=result)
     throws.save()
     logger.info('throws successful')
     return HttpResponse(f'{throws} сохранен в БД')
@@ -54,3 +53,14 @@ def about(request):
     </html>
     """
     return HttpResponse(html)
+
+
+def throws_values(request):
+    res = Throws.values()
+    resp = ''
+    for i in res:
+        resp += str(i) + '\n'
+    print(resp)
+    return HttpResponse(resp)
+
+

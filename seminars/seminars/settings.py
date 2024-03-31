@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "tasksapp",
+    "dz2app",
 ]
 
 MIDDLEWARE = [
@@ -114,6 +115,9 @@ TIME_ZONE = "UTC"
 USE_I18N = True
 
 USE_TZ = True
+
+DATE_INPUT_FORMATS = ["%d.%m.%Y"]
+USE_L10N = False
 
 
 # Static files (CSS, JavaScript, Images)

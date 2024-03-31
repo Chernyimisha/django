@@ -129,3 +129,187 @@ INFO 2024-03-29 21:41:29,746 autoreload 25604 17900 Watching for file changes wi
 INFO 2024-03-29 21:41:53,871 autoreload 21068 26900 Watching for file changes with StatReloader
 INFO 2024-03-29 21:42:10,919 views 21068 28468 throws successful
 INFO 2024-03-29 21:42:10,920 basehttp 21068 28468 "GET /tasksapp/throws/ HTTP/1.1" 200 110
+INFO 2024-03-29 22:04:44,560 autoreload 7688 10692 Watching for file changes with StatReloader
+INFO 2024-03-29 22:04:53,184 views 7688 29992 throws successful
+INFO 2024-03-29 22:04:53,185 basehttp 7688 29992 "GET /tasksapp/throws/ HTTP/1.1" 200 114
+INFO 2024-03-29 22:05:23,372 views 7688 29992 throws successful
+INFO 2024-03-29 22:05:23,372 basehttp 7688 29992 "GET /tasksapp/throws/ HTTP/1.1" 200 116
+INFO 2024-03-29 22:05:44,912 views 7688 29992 throws successful
+INFO 2024-03-29 22:05:44,913 basehttp 7688 29992 "GET /tasksapp/throws/ HTTP/1.1" 200 114
+INFO 2024-03-29 22:07:45,067 autoreload 7688 10692 M:\–¿¡Œ“¿ Ã»ÿ¿\ ÛÒ Python\django\seminars\tasksapp\models.py changed, reloading.
+INFO 2024-03-29 22:07:45,720 autoreload 28540 27336 Watching for file changes with StatReloader
+INFO 2024-03-29 22:07:50,824 views 28540 6624 throws successful
+INFO 2024-03-29 22:07:50,826 basehttp 28540 6624 "GET /tasksapp/throws/ HTTP/1.1" 200 114
+INFO 2024-03-29 22:07:58,458 views 28540 6624 throws successful
+INFO 2024-03-29 22:07:58,458 basehttp 28540 6624 "GET /tasksapp/throws/ HTTP/1.1" 200 116
+INFO 2024-03-29 22:14:36,851 autoreload 28540 27336 M:\–¿¡Œ“¿ Ã»ÿ¿\ ÛÒ Python\django\seminars\tasksapp\views.py changed, reloading.
+INFO 2024-03-29 22:14:37,505 autoreload 8412 27096 Watching for file changes with StatReloader
+INFO 2024-03-29 22:14:42,923 views 8412 25948 throws successful
+INFO 2024-03-29 22:14:42,924 basehttp 8412 25948 "GET /tasksapp/throws/ HTTP/1.1" 200 114
+INFO 2024-03-29 22:14:46,269 views 8412 25948 throws successful
+INFO 2024-03-29 22:14:46,270 basehttp 8412 25948 "GET /tasksapp/throws/ HTTP/1.1" 200 116
+INFO 2024-03-29 22:17:18,008 autoreload 8412 27096 M:\–¿¡Œ“¿ Ã»ÿ¿\ ÛÒ Python\django\seminars\tasksapp\models.py changed, reloading.
+INFO 2024-03-29 22:17:18,620 autoreload 30480 30708 Watching for file changes with StatReloader
+INFO 2024-03-29 23:05:27,818 autoreload 30480 30708 M:\–¿¡Œ“¿ Ã»ÿ¿\ ÛÒ Python\django\seminars\tasksapp\models.py changed, reloading.
+INFO 2024-03-29 23:05:28,597 autoreload 25636 11252 Watching for file changes with StatReloader
+INFO 2024-03-29 23:08:38,933 autoreload 6768 26436 Watching for file changes with StatReloader
+INFO 2024-03-29 23:09:01,294 autoreload 6768 26436 M:\–¿¡Œ“¿ Ã»ÿ¿\ ÛÒ Python\django\seminars\tasksapp\urls.py changed, reloading.
+INFO 2024-03-29 23:09:01,891 autoreload 25584 21220 Watching for file changes with StatReloader
+INFO 2024-03-29 23:09:32,606 basehttp 25584 29948 "GET /tasksapp/values/ HTTP/1.1" 200 4
+INFO 2024-03-29 23:10:17,837 autoreload 25584 21220 M:\–¿¡Œ“¿ Ã»ÿ¿\ ÛÒ Python\django\seminars\tasksapp\models.py changed, reloading.
+INFO 2024-03-29 23:10:18,460 autoreload 18484 8824 Watching for file changes with StatReloader
+INFO 2024-03-29 23:10:25,211 basehttp 18484 28948 "GET /tasksapp/values/ HTTP/1.1" 200 4
+INFO 2024-03-29 23:10:26,659 basehttp 18484 28948 "GET /tasksapp/values/ HTTP/1.1" 200 4
+INFO 2024-03-29 23:11:50,201 autoreload 18484 8824 M:\–¿¡Œ“¿ Ã»ÿ¿\ ÛÒ Python\django\seminars\tasksapp\models.py changed, reloading.
+INFO 2024-03-29 23:11:50,933 autoreload 16588 26376 Watching for file changes with StatReloader
+INFO 2024-03-29 23:13:16,052 autoreload 16588 26376 M:\–¿¡Œ“¿ Ã»ÿ¿\ ÛÒ Python\django\seminars\tasksapp\views.py changed, reloading.
+INFO 2024-03-29 23:13:16,668 autoreload 27308 20328 Watching for file changes with StatReloader
+ERROR 2024-03-29 23:13:27,622 log 27308 26280 Internal Server Error: /tasksapp/values/
+Traceback (most recent call last):
+  File "C:\Users\¿‰ÏËÌËÒÚ‡ÚÓ\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿‰ÏËÌËÒÚ‡ÚÓ\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\–¿¡Œ“¿ Ã»ÿ¿\ ÛÒ Python\django\seminars\tasksapp\views.py", line 60, in throws_values
+    return HttpResponse(str(*res))
+                        ^^^^^^^^^
+TypeError: str() argument after * must be an iterable, not NoneType
+ERROR 2024-03-29 23:13:27,624 basehttp 27308 26280 "GET /tasksapp/values/ HTTP/1.1" 500 64523
+INFO 2024-03-29 23:13:57,209 autoreload 27308 20328 M:\–¿¡Œ“¿ Ã»ÿ¿\ ÛÒ Python\django\seminars\tasksapp\models.py changed, reloading.
+INFO 2024-03-29 23:13:57,852 autoreload 16608 25796 Watching for file changes with StatReloader
+ERROR 2024-03-29 23:13:59,520 log 16608 9420 Internal Server Error: /tasksapp/values/
+Traceback (most recent call last):
+  File "C:\Users\¿‰ÏËÌËÒÚ‡ÚÓ\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿‰ÏËÌËÒÚ‡ÚÓ\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\–¿¡Œ“¿ Ã»ÿ¿\ ÛÒ Python\django\seminars\tasksapp\views.py", line 60, in throws_values
+    return HttpResponse(str(*res))
+                        ^^^^^^^^^
+TypeError: str() takes at most 3 arguments (5 given)
+ERROR 2024-03-29 23:13:59,522 basehttp 16608 9420 "GET /tasksapp/values/ HTTP/1.1" 500 65017
+INFO 2024-03-29 23:14:13,341 autoreload 16608 25796 M:\–¿¡Œ“¿ Ã»ÿ¿\ ÛÒ Python\django\seminars\tasksapp\views.py changed, reloading.
+INFO 2024-03-29 23:14:13,986 autoreload 17140 17272 Watching for file changes with StatReloader
+INFO 2024-03-29 23:14:15,825 basehttp 17140 8764 "GET /tasksapp/values/ HTTP/1.1" 200 451
+INFO 2024-03-29 23:15:24,682 autoreload 17140 17272 M:\–¿¡Œ“¿ Ã»ÿ¿\ ÛÒ Python\django\seminars\tasksapp\views.py changed, reloading.
+INFO 2024-03-29 23:15:25,308 autoreload 6636 20324 Watching for file changes with StatReloader
+ERROR 2024-03-29 23:15:27,237 log 6636 28452 Internal Server Error: /tasksapp/values/
+Traceback (most recent call last):
+  File "C:\Users\¿‰ÏËÌËÒÚ‡ÚÓ\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿‰ÏËÌËÒÚ‡ÚÓ\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\–¿¡Œ“¿ Ã»ÿ¿\ ÛÒ Python\django\seminars\tasksapp\views.py", line 59, in throws_values
+    res = '\n'.join(Throws.values())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: sequence item 0: expected str instance, Throws found
+ERROR 2024-03-29 23:15:27,240 basehttp 6636 28452 "GET /tasksapp/values/ HTTP/1.1" 500 64518
+ERROR 2024-03-29 23:15:51,206 log 6636 28452 Internal Server Error: /tasksapp/values/
+Traceback (most recent call last):
+  File "C:\Users\¿‰ÏËÌËÒÚ‡ÚÓ\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿‰ÏËÌËÒÚ‡ÚÓ\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\–¿¡Œ“¿ Ã»ÿ¿\ ÛÒ Python\django\seminars\tasksapp\views.py", line 59, in throws_values
+    res = Throws.values()
+          ^^^^^^^^^^^^^^^^
+TypeError: sequence item 0: expected str instance, Throws found
+ERROR 2024-03-29 23:15:51,208 basehttp 6636 28452 "GET /tasksapp/values/ HTTP/1.1" 500 64476
+INFO 2024-03-29 23:15:51,218 autoreload 6636 20324 M:\–¿¡Œ“¿ Ã»ÿ¿\ ÛÒ Python\django\seminars\tasksapp\views.py changed, reloading.
+INFO 2024-03-29 23:15:51,951 autoreload 17216 13652 Watching for file changes with StatReloader
+INFO 2024-03-29 23:15:54,652 basehttp 17216 27788 "GET /tasksapp/values/ HTTP/1.1" 200 451
+INFO 2024-03-29 23:16:25,250 autoreload 17216 13652 M:\–¿¡Œ“¿ Ã»ÿ¿\ ÛÒ Python\django\seminars\tasksapp\views.py changed, reloading.
+INFO 2024-03-29 23:16:25,912 autoreload 25324 8216 Watching for file changes with StatReloader
+INFO 2024-03-29 23:16:26,116 basehttp 25324 12460 "GET /tasksapp/values/ HTTP/1.1" 200 451
+INFO 2024-03-29 23:16:51,216 basehttp 25324 12460 "GET /tasksapp/values/ HTTP/1.1" 200 451
+INFO 2024-03-29 23:16:51,532 autoreload 25324 8216 M:\–¿¡Œ“¿ Ã»ÿ¿\ ÛÒ Python\django\seminars\tasksapp\views.py changed, reloading.
+INFO 2024-03-29 23:16:52,210 autoreload 13420 30596 Watching for file changes with StatReloader
+INFO 2024-03-29 23:16:58,497 basehttp 13420 25140 "GET /tasksapp/values/ HTTP/1.1" 200 451
+INFO 2024-03-29 23:21:41,025 autoreload 13420 30596 M:\–¿¡Œ“¿ Ã»ÿ¿\ ÛÒ Python\django\seminars\tasksapp\views.py changed, reloading.
+INFO 2024-03-29 23:21:41,672 autoreload 9844 6104 Watching for file changes with StatReloader
+ERROR 2024-03-29 23:21:46,208 log 9844 23156 Internal Server Error: /tasksapp/values/
+Traceback (most recent call last):
+  File "C:\Users\¿‰ÏËÌËÒÚ‡ÚÓ\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿‰ÏËÌËÒÚ‡ÚÓ\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\–¿¡Œ“¿ Ã»ÿ¿\ ÛÒ Python\django\seminars\tasksapp\views.py", line 62, in throws_values
+    resp += i + '\n'
+            ~~^~~~~~
+TypeError: unsupported operand type(s) for +: 'Throws' and 'str'
+ERROR 2024-03-29 23:21:46,210 basehttp 9844 23156 "GET /tasksapp/values/ HTTP/1.1" 500 65685
+INFO 2024-03-29 23:22:33,609 autoreload 9844 6104 M:\–¿¡Œ“¿ Ã»ÿ¿\ ÛÒ Python\django\seminars\tasksapp\views.py changed, reloading.
+INFO 2024-03-29 23:22:34,249 autoreload 32 22304 Watching for file changes with StatReloader
+INFO 2024-03-29 23:22:39,594 basehttp 32 18420 "GET /tasksapp/values/ HTTP/1.1" 200 456
+INFO 2024-03-29 23:22:47,217 basehttp 32 18420 "GET /tasksapp/values/ HTTP/1.1" 200 456
+INFO 2024-03-29 23:23:22,829 basehttp 32 18420 "GET /tasksapp/values/ HTTP/1.1" 200 456
+INFO 2024-03-29 23:23:23,080 autoreload 32 22304 M:\–¿¡Œ“¿ Ã»ÿ¿\ ÛÒ Python\django\seminars\tasksapp\views.py changed, reloading.
+INFO 2024-03-29 23:23:23,759 autoreload 7868 29288 Watching for file changes with StatReloader
+INFO 2024-03-29 23:23:42,757 basehttp 7868 1712 "GET /tasksapp/values/ HTTP/1.1" 200 456
+INFO 2024-03-29 23:33:19,248 autoreload 7868 29288 M:\–¿¡Œ“¿ Ã»ÿ¿\ ÛÒ Python\django\seminars\tasksapp\models.py changed, reloading.
+INFO 2024-03-29 23:33:20,078 autoreload 23492 18936 Watching for file changes with StatReloader
+INFO 2024-03-30 19:20:52,056 autoreload 29576 18752 Watching for file changes with StatReloader
+INFO 2024-03-30 19:25:28,883 autoreload 29576 18752 M:\–¿¡Œ“¿ Ã»ÿ¿\ ÛÒ Python\django\seminars\dz2app\views.py changed, reloading.
+INFO 2024-03-30 19:25:29,464 autoreload 1608 25056 Watching for file changes with StatReloader
+WARNING 2024-03-30 19:25:32,662 log 1608 17660 Not Found: /
+WARNING 2024-03-30 19:25:32,663 basehttp 1608 17660 "GET / HTTP/1.1" 404 2171
+WARNING 2024-03-30 19:25:57,667 log 1608 17660 Not Found: /dz2app/
+WARNING 2024-03-30 19:25:57,668 basehttp 1608 17660 "GET /dz2app/ HTTP/1.1" 404 2272
+WARNING 2024-03-30 19:26:27,971 log 1608 17660 Not Found: /dz2app
+WARNING 2024-03-30 19:26:27,972 basehttp 1608 17660 "GET /dz2app HTTP/1.1" 404 2207
+INFO 2024-03-30 19:30:21,119 autoreload 1608 25056 M:\–¿¡Œ“¿ Ã»ÿ¿\ ÛÒ Python\django\seminars\dz2app\urls.py changed, reloading.
+INFO 2024-03-30 19:30:21,767 autoreload 19636 884 Watching for file changes with StatReloader
+WARNING 2024-03-30 19:31:23,933 log 19636 29028 Not Found: /
+WARNING 2024-03-30 19:31:23,934 basehttp 19636 29028 "GET / HTTP/1.1" 404 2171
+INFO 2024-03-30 19:31:42,817 basehttp 19636 29028 "GET /tasksapp/values/ HTTP/1.1" 200 456
+INFO 2024-03-30 19:33:14,574 autoreload 19636 884 M:\–¿¡Œ“¿ Ã»ÿ¿\ ÛÒ Python\django\seminars\dz2app\urls.py changed, reloading.
+INFO 2024-03-30 19:33:15,182 autoreload 10116 24168 Watching for file changes with StatReloader
+INFO 2024-03-30 19:33:49,218 basehttp 10116 29364 "GET /dz2app/main/ HTTP/1.1" 200 13
+INFO 2024-03-30 19:35:00,361 autoreload 10116 24168 M:\–¿¡Œ“¿ Ã»ÿ¿\ ÛÒ Python\django\seminars\dz2app\views.py changed, reloading.
+INFO 2024-03-30 19:35:00,977 autoreload 11868 18116 Watching for file changes with StatReloader
+INFO 2024-03-30 23:22:42,886 autoreload 11240 22088 Watching for file changes with StatReloader
+ERROR 2024-03-30 23:23:25,549 log 11240 15208 Internal Server Error: /dz2app/cust/
+Traceback (most recent call last):
+  File "C:\Users\¿‰ÏËÌËÒÚ‡ÚÓ\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\¿‰ÏËÌËÒÚ‡ÚÓ\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\–¿¡Œ“¿ Ã»ÿ¿\ ÛÒ Python\django\seminars\dz2app\views.py", line 19, in create_customer
+    customer = Customer(name=name, email=email, phone=phone, address=address)
+               ^^^^^^^^
+NameError: name 'Customer' is not defined
+ERROR 2024-03-30 23:23:25,552 basehttp 11240 15208 "GET /dz2app/cust/ HTTP/1.1" 500 65048
+INFO 2024-03-30 23:24:52,243 autoreload 11240 22088 M:\–¿¡Œ“¿ Ã»ÿ¿\ ÛÒ Python\django\seminars\dz2app\views.py changed, reloading.
+INFO 2024-03-30 23:24:52,912 autoreload 4876 19372 Watching for file changes with StatReloader
+INFO 2024-03-30 23:26:04,361 autoreload 18192 28768 Watching for file changes with StatReloader
+INFO 2024-03-31 14:51:27,244 autoreload 8928 24044 Watching for file changes with StatReloader
+INFO 2024-03-31 14:51:42,350 autoreload 8928 24044 M:\–¿¡Œ“¿ Ã»ÿ¿\ ÛÒ Python\django\seminars\dz2app\views.py changed, reloading.
+INFO 2024-03-31 14:51:42,968 autoreload 2632 13404 Watching for file changes with StatReloader
+INFO 2024-03-31 14:51:50,521 autoreload 2632 13404 M:\–¿¡Œ“¿ Ã»ÿ¿\ ÛÒ Python\django\seminars\dz2app\views.py changed, reloading.
+INFO 2024-03-31 14:51:51,132 autoreload 27660 29192 Watching for file changes with StatReloader
+INFO 2024-03-31 14:51:59,443 basehttp 27660 26360 "GET /dz2app/cust/ HTTP/1.1" 200 48
+INFO 2024-03-31 14:53:49,023 autoreload 27660 29192 M:\–¿¡Œ“¿ Ã»ÿ¿\ ÛÒ Python\django\seminars\dz2app\models.py changed, reloading.
+INFO 2024-03-31 14:53:49,672 autoreload 18064 20068 Watching for file changes with StatReloader
+INFO 2024-03-31 14:54:07,053 autoreload 8016 9432 Watching for file changes with StatReloader
+INFO 2024-03-31 14:54:10,655 basehttp 8016 11164 "GET /dz2app/cust/ HTTP/1.1" 200 48
+INFO 2024-03-31 14:54:57,388 basehttp 8016 11164 "GET /dz2app/cust/ HTTP/1.1" 200 48
+INFO 2024-03-31 14:57:38,189 basehttp 8016 11164 "GET /dz2app/cust/ HTTP/1.1" 200 48
+INFO 2024-03-31 14:58:13,064 views 8016 11164 throws successful
+INFO 2024-03-31 14:58:13,064 basehttp 8016 11164 "GET /tasksapp/throws/ HTTP/1.1" 200 114
+INFO 2024-03-31 15:00:00,696 autoreload 8016 9432 M:\–¿¡Œ“¿ Ã»ÿ¿\ ÛÒ Python\django\seminars\dz2app\models.py changed, reloading.
+INFO 2024-03-31 15:00:01,313 autoreload 24040 19412 Watching for file changes with StatReloader
+INFO 2024-03-31 16:52:54,970 autoreload 13188 7392 Watching for file changes with StatReloader
+INFO 2024-03-31 16:53:16,658 autoreload 10696 30412 Watching for file changes with StatReloader
+INFO 2024-03-31 16:55:11,588 autoreload 13776 9860 Watching for file changes with StatReloader

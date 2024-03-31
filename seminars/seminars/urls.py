@@ -20,4 +20,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path("tasksapp/", include("tasksapp.urls")),
+    path("dz2app/", include("dz2app.urls")),
 ]
