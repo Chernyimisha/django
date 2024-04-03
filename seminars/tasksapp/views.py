@@ -1,4 +1,4 @@
-from django.shortcuts import HttpResponse
+from django.shortcuts import HttpResponse, render
 from random import choice
 
 from .models import Throws
@@ -62,5 +62,28 @@ def throws_values(request):
         resp += str(i) + '\n'
     print(resp)
     return HttpResponse(resp)
+
+
+# def get_index(request):
+#     context = {
+#         'title': 'Первый Django-сайт',
+#         'header': 'Это мой первый Django-сайт',
+#     }
+#     return render(request, 'tasksapp/base.html', context)
+#
+#
+# def get_about(request):
+#     context = {
+#         'title': 'Первый Django-сайт',
+#         'header': 'О НАС',
+#     }
+#     return render(request, 'tasksapp/base.html', context)
+
+def get_index(request):
+    return render(request, 'tasksapp/index.html')
+
+
+def get_about(request):
+    return render(request, 'tasksapp/about.html')
 
 

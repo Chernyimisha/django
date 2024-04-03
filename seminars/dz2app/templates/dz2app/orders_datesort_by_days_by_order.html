@@ -1,0 +1,38 @@
+{% extends 'dz2app/base.html' %}
+
+{% block content %}
+  <h1>Список заказанных товаров {{ customer }}</h1>
+
+  <h2>За последние 7 дней (неделю)</h2>
+    <ol>
+        {% for order, products in orders_7_days.items %}
+        <li>Заказ от : {{ order.date_ordered }} на сумму {{ order.total_price }} руб.<br/>
+            {% for product in products %}
+                {{ product }}<br/>
+            {% endfor %}
+        </li>
+        {% endfor %}
+    </ol>
+
+  <h2>За последние 30 дней (месяц)</h2>
+    <ol>
+        {% for order, products in orders_30_days.items %}
+        <li>Заказ от : {{ order.date_ordered }} на сумму {{ order.total_price }} руб.<br/>
+            {% for product in products %}
+                {{ product }}<br/>
+            {% endfor %}
+        </li>
+        {% endfor %}
+    </ol>
+
+  <h2>За последние 365 дней (год)</h2>
+    <ol>
+        {% for order, products in orders_365_days.items %}
+        <li>Заказ от : {{ order.date_ordered }} на сумму {{ order.total_price }} руб.<br/>
+            {% for product in products %}
+                {{ product }}<br/>
+            {% endfor %}
+        </li>
+        {% endfor %}
+    </ol>
+{% endblock %}

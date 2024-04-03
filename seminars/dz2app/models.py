@@ -1,5 +1,6 @@
 from django.db import models
 from django.utils import timezone
+import json
 
 
 class Customer(models.Model):
@@ -25,12 +26,51 @@ class Product(models.Model):
 
 
 class Order(models.Model):
+
+    id_product_QUANTITY: dict = {}
+
     customer = models.ForeignKey(Customer, on_delete=models.CASCADE)
-    products = models.ManyToManyField(Product)
-    date_ordered = models.DateTimeField(auto_now_add=True)
+    products = models.ManyToManyField(Product, unique=False)
+    date_ordered = models.DateTimeField()
     total_price = models.DecimalField(max_digits=8, decimal_places=2)
+    view_products = models.TextField(max_length=1000, blank=True)
+
+    def get_product(self):
+        result = ''
+        products = self.products.all()
+        view_products = json.loads(self.view_products)
+        for i, product in enumerate(products, 1):
+            count = view_products[f'{product.pk}']
+            product_summ = product.price * count
+            result += f'{i}. {product.name} {count} шт. x {product.price} руб. на сумму {product_summ} руб.\n\t'
+        return result
+
+    @staticmethod
+    def get_product_set_orders(set_orders):
+        result = ''
+        result_products = set()
+        result_view_products = {}
+        for order in set_orders:
+            products = order.products.all()
+            for product in products:
+                result_products.add(product)
+            view_products = json.loads(str(order.view_products))
+            for key, value in view_products.items():
+                if key not in result_view_products:
+                    result_view_products[key] = value
+                else:
+                    result_view_products[key] += value
+
+        for i, product in enumerate(result_products, 1):
+            count = result_view_products[f'{product.pk}']
+            product_summ = product.price * count
+            result += f'{i}. {product.name} {count} шт. x {product.price} руб. на сумму {product_summ} руб.\n\t'
+
+        return result
 
     def __str__(self):
-        return f'{self.date_ordered} {self.total_price} {self.customer} {self.products}'
+        return f'Datetime order: {self.date_ordered},\nTotal: {self.total_price},\n' \
+               f'Customer: {self.customer}' \
+               f'\nProducts:\n\t{self.get_product()}'
 
 

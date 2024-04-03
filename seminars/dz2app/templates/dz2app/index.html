@@ -1,0 +1,16 @@
+{% extends 'tasksapp/base_block.html' %}
+
+{% block content %}
+<h1>Заказы клиента {{ customer }}:</h1>
+
+<ol>
+    {% for order, products in orders.items %}
+    <li>Заказ от : {{ order.date_ordered }} на сумму {{ order.total_price }} руб.<br/>
+        {% for product in products %}
+            {{ product }}<br/>
+        {% endfor %}
+    </li>
+    {% endfor %}
+</ol>
+
+{% endblock %}
