@@ -2,6 +2,10 @@ from django.shortcuts import HttpResponse, render
 from django.utils import timezone
 import logging
 from dz2app.models import Customer, Order, Product
+from dz2app.forms import ProductForm, CustomerForm, OrderForm
+from django.core.files.storage import FileSystemStorage
+import json
+
 
 logger = logging.getLogger(__name__)
 
@@ -70,3 +74,70 @@ def read_orders_customer_by_days(request, pk):
     }
 
     return render(request, 'dz2app/orders_datesort_by_days.html', context)
+
+
+def product_form(request):
+    if request.method == 'POST':
+        form = ProductForm(request.POST, request.FILES)
+        if form.is_valid():
+            name = form.cleaned_data['name']
+            description = form.cleaned_data['description']
+            price = form.cleaned_data['price']
+            volume = form.cleaned_data['volume']
+            date = form.cleaned_data['date']
+            product = Product(name=name, description=description, price=price, volume=volume)
+            product.save()
+            image = form.cleaned_data['image']
+            fs = FileSystemStorage()
+            fs.save(image.name, image)
+            logger.info(f'Создан товар: {name=}, {price=}.')
+            return HttpResponse(f"В базе сохранен товар: {product}")
+    else:
+        form = ProductForm()
+        return render(request, 'dz2app/form.html', {'form': form})
+
+
+def customer_form(request):
+    if request.method == 'POST':
+        form = CustomerForm(request.POST)
+        if form.is_valid():
+            name = form.cleaned_data['name']
+            email = form.cleaned_data['email']
+            phone = form.cleaned_data['phone']
+            address = form.cleaned_data['address']
+            registration_date = form.cleaned_data['registration_date']
+            customer = Customer(name=name, email=email, phone=phone, address=address)
+            customer.save()
+            logger.info(f'Создан клиент: {name=}, {email=}.')
+            return HttpResponse(f"В базе сохранен клиент: {customer}")
+    else:
+        form = CustomerForm()
+        return render(request, 'dz2app/form.html', {'form': form})
+
+
+def order_form(request):
+    if request.method == 'POST':
+        form = OrderForm(request.POST)
+        if form.is_valid():
+            total_price: float = 0
+            customer = form.cleaned_data['customer']
+            products = form.cleaned_data['products']
+            order = Order(customer=customer,
+                          date_ordered=timezone.now(),
+                          total_price=total_price)
+            order.save()
+            if products:
+                for product in products:
+                    order.products.add(product)
+                    total_price += product.price
+                    order.id_product_QUANTITY[product.pk] = 1
+                    product.volume -= 1
+                    product.save()
+                order.total_price = total_price
+                order.view_products = json.dumps(order.id_product_QUANTITY)
+                order.save()
+            logger.info(f'Создан заказ: #{order.pk}, на сумму {total_price}.')
+            return HttpResponse(f"В базе сохранен заказ: {order}")
+    else:
+        form = OrderForm()
+        return render(request, 'dz2app/form_order.html', {'form': form})

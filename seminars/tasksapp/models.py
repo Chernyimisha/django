@@ -12,11 +12,37 @@ class Throws(models.Model):
     time_throws = models.DateTimeField(default=timezone.now)
 
     def __str__(self):
-        return f'результат броска - {self.res_throws}, время - {self.time_throws}'
+        return f'результат броска монеты - {self.res_throws}, время - {self.time_throws}'
 
     @staticmethod
     def values():
         res = Throws.objects.order_by('-time_throws')[:5]
+        return res
+
+
+class Bones(models.Model):
+    res_bones = models.IntegerField()
+    time_bones = models.DateTimeField(default=timezone.now)
+
+    def __str__(self):
+        return f'результат броска кости - {self.res_bones}, время - {self.time_bones}'
+
+    @staticmethod
+    def values():
+        res = Bones.objects.order_by('-time_bones')[:5]
+        return res
+
+
+class Numbers(models.Model):
+    res_random = models.IntegerField()
+    time_random = models.DateTimeField(default=timezone.now)
+
+    def __str__(self):
+        return f'случайным числом выпало- {self.res_random}, время - {self.time_random}'
+
+    @staticmethod
+    def values():
+        res = Numbers.objects.order_by('-time_random')[:5]
         return res
 
 # Задание №3

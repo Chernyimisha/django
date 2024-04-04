@@ -20,9 +20,11 @@ class Product(models.Model):
     price = models.DecimalField(max_digits=5, decimal_places=2)
     volume = models.IntegerField()
     date = models.DateField(default=timezone.now)
+    image = models.ImageField(blank=True)
 
     def __str__(self):
-        return f'{self.name} {self.price} {self.volume} {self.description}'
+        return f'Наименование: {self.name}, цена за ед.: {self.price}, ' \
+               f'количество: {self.volume}, описание: {self.description}'
 
 
 class Order(models.Model):
@@ -38,7 +40,7 @@ class Order(models.Model):
     def get_product(self):
         result = ''
         products = self.products.all()
-        view_products = json.loads(self.view_products)
+        view_products = json.loads(str(self.view_products))
         for i, product in enumerate(products, 1):
             count = view_products[f'{product.pk}']
             product_summ = product.price * count

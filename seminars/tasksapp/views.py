@@ -1,7 +1,7 @@
 from django.shortcuts import HttpResponse, render
-from random import choice
-
-from .models import Throws
+from random import choice, randint
+from .forms import Game
+from .models import Throws, Bones, Numbers
 import logging
 
 
@@ -13,12 +13,49 @@ def index(request):
     return HttpResponse("Hello, world!")
 
 
-def throws(request):
-    result = choice(['орёл', 'решка'])
-    throws = Throws(res_throws=result)
-    throws.save()
-    logger.info('throws successful')
-    return HttpResponse(f'{throws} сохранен в БД')
+def throws(request, attempts):
+    results = []
+    for i in range(attempts):
+        result = choice(['орёл', 'решка'])
+        throws = Throws(res_throws=result)
+        throws.save()
+        results.append(throws)
+    logger.info(f'{len(results)} throws successful')
+    context = {
+        "game": 'Броски монеты',
+        "attempts": results
+    }
+    return render(request, 'tasksapp/game_rezults.html', context)
+
+
+def bones(request, attempts):
+    results = []
+    for i in range(attempts):
+        result = randint(1, 6)
+        bones = Bones(res_bones=result)
+        bones.save()
+        results.append(bones)
+    logger.info(f'{len(results)} bones successful')
+    context = {
+        "game": 'Игральные кости',
+        "attempts": results
+    }
+    return render(request, 'tasksapp/game_rezults.html', context)
+
+
+def numbers(request, attempts):
+    results = []
+    for i in range(attempts):
+        result = randint(0, 1000)
+        randnumber = Numbers(res_random=result)
+        randnumber.save()
+        results.append(randnumber)
+    logger.info(f'{len(results)} randnumber successful')
+    context = {
+        "game": 'Случайные числа',
+        "attempts": results
+    }
+    return render(request, 'tasksapp/game_rezults.html', context)
 
 
 def main(request):
@@ -85,5 +122,23 @@ def get_index(request):
 
 def get_about(request):
     return render(request, 'tasksapp/about.html')
+
+
+def game_forms(request):
+    if request.method == 'POST':
+        form = Game(request.POST)
+        if form.is_valid():
+            choice_game = form.cleaned_data['choice_game']
+            attempts = form.cleaned_data['attempts']
+            logger.info(f'Получили {choice_game=}, {attempts=}.')
+            if choice_game == 'throws':
+                return throws(request, attempts)
+            elif choice_game == 'bones':
+                return bones(request, attempts)
+            else:
+                return numbers(request, attempts)
+    else:
+        form = Game()
+        return render(request, 'tasksapp/game.html', {'form': form})
 
 

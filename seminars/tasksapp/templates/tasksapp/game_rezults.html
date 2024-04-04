@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Результаты игры</title>
+    <h1>Результаты игры в "{{ game }}"</h1>
+</head>
+<body>
+    {% for attempt in attempts %}
+        <h2>{{ attempt }}</h2><br/>
+    {% endfor %}
+</body>
+</html>

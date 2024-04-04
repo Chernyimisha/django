@@ -2986,3 +2986,550 @@ INFO 2024-04-03 18:47:48,237 autoreload 15700 6468 Watching for file changes wit
 INFO 2024-04-03 18:47:50,133 basehttp 15700 25588 "GET /dz2app/orders_by_days/24/ HTTP/1.1" 200 3451
 INFO 2024-04-03 18:49:42,440 basehttp 15700 25588 "GET /dz2app/orders_by_days_by_order/24/ HTTP/1.1" 200 12428
 INFO 2024-04-03 18:51:07,350 basehttp 15700 25588 "GET /dz2app/orders_by_days/24/ HTTP/1.1" 200 3451
+INFO 2024-04-04 13:42:00,613 autoreload 24628 17544 Watching for file changes with StatReloader
+INFO 2024-04-04 13:42:45,912 basehttp 24628 9608 "GET /tasksapp/throws HTTP/1.1" 301 0
+INFO 2024-04-04 13:42:46,037 views 24628 7960 throws successful
+INFO 2024-04-04 13:42:46,038 basehttp 24628 7960 "GET /tasksapp/throws/ HTTP/1.1" 200 116
+INFO 2024-04-04 14:03:39,979 autoreload 24628 17544 M:\РАБОТА МИША\Курс Python\django\seminars\tasksapp\views.py changed, reloading.
+INFO 2024-04-04 14:03:40,586 autoreload 17340 19300 Watching for file changes with StatReloader
+INFO 2024-04-04 14:03:43,981 autoreload 17340 19300 M:\РАБОТА МИША\Курс Python\django\seminars\tasksapp\views.py changed, reloading.
+INFO 2024-04-04 14:25:32,171 autoreload 20884 22428 Watching for file changes with StatReloader
+INFO 2024-04-04 14:26:51,861 views 20884 11040 bones successful
+INFO 2024-04-04 14:26:51,863 basehttp 20884 11040 "GET /tasksapp/bones/ HTTP/1.1" 200 117
+INFO 2024-04-04 14:28:43,374 autoreload 20884 22428 M:\РАБОТА МИША\Курс Python\django\seminars\tasksapp\models.py changed, reloading.
+INFO 2024-04-04 14:28:43,984 autoreload 27412 30160 Watching for file changes with StatReloader
+INFO 2024-04-04 14:28:52,200 views 27412 15868 bones successful
+INFO 2024-04-04 14:28:52,201 basehttp 27412 15868 "GET /tasksapp/bones/ HTTP/1.1" 200 118
+INFO 2024-04-04 14:30:36,731 autoreload 27412 30160 M:\РАБОТА МИША\Курс Python\django\seminars\tasksapp\views.py changed, reloading.
+INFO 2024-04-04 14:30:37,406 autoreload 10972 3836 Watching for file changes with StatReloader
+INFO 2024-04-04 14:30:40,479 views 10972 24624 bones successful
+INFO 2024-04-04 14:30:40,480 basehttp 10972 24624 "GET /tasksapp/bones/ HTTP/1.1" 200 118
+INFO 2024-04-04 14:30:42,271 views 10972 24624 bones successful
+INFO 2024-04-04 14:30:42,272 basehttp 10972 24624 "GET /tasksapp/bones/ HTTP/1.1" 200 118
+INFO 2024-04-04 14:30:57,445 views 10972 24624 bones successful
+INFO 2024-04-04 14:30:57,446 basehttp 10972 24624 "GET /tasksapp/bones/ HTTP/1.1" 200 118
+INFO 2024-04-04 14:31:18,353 views 10972 24624 randnumber successful
+INFO 2024-04-04 14:31:18,354 basehttp 10972 24624 "GET /tasksapp/numbers/ HTTP/1.1" 200 120
+INFO 2024-04-04 14:32:00,177 autoreload 23916 20432 Watching for file changes with StatReloader
+INFO 2024-04-04 14:32:09,168 views 23916 21980 randnumber successful
+INFO 2024-04-04 14:32:09,169 basehttp 23916 21980 "GET /tasksapp/numbers/ HTTP/1.1" 200 120
+INFO 2024-04-04 16:55:44,309 autoreload 22444 6416 Watching for file changes with StatReloader
+INFO 2024-04-04 16:56:00,237 views 22444 21936 throws successful
+INFO 2024-04-04 16:56:00,238 basehttp 22444 21936 "GET /tasksapp/throws/ HTTP/1.1" 200 127
+WARNING 2024-04-04 16:56:00,370 log 22444 21936 Not Found: /favicon.ico
+WARNING 2024-04-04 16:56:00,371 basehttp 22444 21936 "GET /favicon.ico HTTP/1.1" 404 2222
+INFO 2024-04-04 16:56:12,362 views 22444 21936 throws successful
+INFO 2024-04-04 16:56:12,363 basehttp 22444 21936 "GET /tasksapp/throws/ HTTP/1.1" 200 127
+INFO 2024-04-04 16:56:13,384 views 22444 21936 throws successful
+INFO 2024-04-04 16:56:13,385 basehttp 22444 21936 "GET /tasksapp/throws/ HTTP/1.1" 200 129
+INFO 2024-04-04 16:58:03,472 views 22444 21936 throws successful
+INFO 2024-04-04 16:58:03,473 basehttp 22444 21936 "GET /tasksapp/throws/ HTTP/1.1" 200 129
+INFO 2024-04-04 17:44:56,344 views 22444 8748 bones successful
+INFO 2024-04-04 17:44:56,345 basehttp 22444 8748 "GET /tasksapp/bones/ HTTP/1.1" 200 118
+INFO 2024-04-04 17:45:10,869 views 22444 8748 bones successful
+INFO 2024-04-04 17:45:10,870 basehttp 22444 8748 "GET /tasksapp/bones/ HTTP/1.1" 200 118
+INFO 2024-04-04 17:45:11,086 views 22444 8748 bones successful
+INFO 2024-04-04 17:45:11,087 basehttp 22444 8748 "GET /tasksapp/bones/ HTTP/1.1" 200 118
+INFO 2024-04-04 17:45:11,319 views 22444 8748 bones successful
+INFO 2024-04-04 17:45:11,320 basehttp 22444 8748 "GET /tasksapp/bones/ HTTP/1.1" 200 118
+INFO 2024-04-04 17:45:11,677 views 22444 8748 bones successful
+INFO 2024-04-04 17:45:11,678 basehttp 22444 8748 "GET /tasksapp/bones/ HTTP/1.1" 200 118
+INFO 2024-04-04 17:45:11,927 views 22444 8748 bones successful
+INFO 2024-04-04 17:45:11,928 basehttp 22444 8748 "GET /tasksapp/bones/ HTTP/1.1" 200 118
+INFO 2024-04-04 17:55:16,012 autoreload 22444 6416 M:\РАБОТА МИША\Курс Python\django\seminars\tasksapp\views.py changed, reloading.
+INFO 2024-04-04 17:55:17,108 autoreload 13844 5492 Watching for file changes with StatReloader
+INFO 2024-04-04 17:56:28,936 autoreload 13844 5492 M:\РАБОТА МИША\Курс Python\django\seminars\tasksapp\urls.py changed, reloading.
+INFO 2024-04-04 17:56:29,607 autoreload 12088 9344 Watching for file changes with StatReloader
+INFO 2024-04-04 17:59:09,190 autoreload 12088 9344 M:\РАБОТА МИША\Курс Python\django\seminars\tasksapp\views.py changed, reloading.
+INFO 2024-04-04 17:59:09,740 autoreload 12888 19728 Watching for file changes with StatReloader
+ERROR 2024-04-04 17:59:24,509 log 12888 14808 Internal Server Error: /tasksapp/game/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\РАБОТА МИША\Курс Python\django\seminars\tasksapp\views.py", line 115, in game_forms
+    form = UserForm()
+           ^^^^^^^^
+NameError: name 'UserForm' is not defined
+ERROR 2024-04-04 17:59:24,511 basehttp 12888 14808 "GET /tasksapp/game/ HTTP/1.1" 500 64375
+INFO 2024-04-04 17:59:51,475 autoreload 12888 19728 M:\РАБОТА МИША\Курс Python\django\seminars\tasksapp\views.py changed, reloading.
+INFO 2024-04-04 17:59:52,051 autoreload 11688 21700 Watching for file changes with StatReloader
+INFO 2024-04-04 17:59:54,484 basehttp 11688 8196 "GET /tasksapp/game/ HTTP/1.1" 200 825
+INFO 2024-04-04 18:05:27,194 autoreload 11688 21700 M:\РАБОТА МИША\Курс Python\django\seminars\tasksapp\forms.py changed, reloading.
+INFO 2024-04-04 18:05:27,806 autoreload 22176 12632 Watching for file changes with StatReloader
+INFO 2024-04-04 18:05:30,241 basehttp 22176 1656 "GET /tasksapp/game/ HTTP/1.1" 200 871
+INFO 2024-04-04 18:07:01,107 autoreload 22176 12632 M:\РАБОТА МИША\Курс Python\django\seminars\tasksapp\forms.py changed, reloading.
+INFO 2024-04-04 18:07:01,677 autoreload 11380 19348 Watching for file changes with StatReloader
+INFO 2024-04-04 18:07:04,550 basehttp 11380 11616 "GET /tasksapp/game/ HTTP/1.1" 200 928
+INFO 2024-04-04 18:07:31,257 basehttp 11380 11616 "GET /tasksapp/game/ HTTP/1.1" 200 931
+INFO 2024-04-04 18:08:03,355 autoreload 11380 19348 M:\РАБОТА МИША\Курс Python\django\seminars\tasksapp\forms.py changed, reloading.
+INFO 2024-04-04 18:08:03,924 autoreload 19728 2032 Watching for file changes with StatReloader
+INFO 2024-04-04 18:08:06,386 basehttp 19728 20448 "GET /tasksapp/game/ HTTP/1.1" 200 926
+INFO 2024-04-04 18:18:23,074 autoreload 19728 2032 M:\РАБОТА МИША\Курс Python\django\seminars\tasksapp\views.py changed, reloading.
+INFO 2024-04-04 18:18:23,649 autoreload 21232 19672 Watching for file changes with StatReloader
+INFO 2024-04-04 18:19:39,174 basehttp 21232 15876 "GET /tasksapp/game/ HTTP/1.1" 200 945
+INFO 2024-04-04 18:19:47,988 views 21232 15876 Получили choice_game='throws', attempts=1.
+INFO 2024-04-04 18:19:48,105 views 21232 15876 throws successful
+INFO 2024-04-04 18:19:48,191 views 21232 15876 throws successful
+ERROR 2024-04-04 18:19:48,226 log 21232 15876 Internal Server Error: /tasksapp/game/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view tasksapp.views.game_forms didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-04-04 18:19:48,228 basehttp 21232 15876 "POST /tasksapp/game/ HTTP/1.1" 500 67647
+INFO 2024-04-04 19:15:37,061 autoreload 21232 19672 M:\РАБОТА МИША\Курс Python\django\seminars\tasksapp\views.py changed, reloading.
+INFO 2024-04-04 19:15:37,674 autoreload 7944 2032 Watching for file changes with StatReloader
+INFO 2024-04-04 19:15:46,489 views 7944 6272 Получили choice_game='throws', attempts=1.
+INFO 2024-04-04 19:15:46,630 views 7944 6272 throws successful
+INFO 2024-04-04 19:15:46,753 views 7944 6272 throws successful
+ERROR 2024-04-04 19:15:46,793 log 7944 6272 Internal Server Error: /tasksapp/game/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view tasksapp.views.game_forms didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-04-04 19:15:46,796 basehttp 7944 6272 "POST /tasksapp/game/ HTTP/1.1" 500 67647
+INFO 2024-04-04 19:15:50,086 views 7944 6272 Получили choice_game='throws', attempts=1.
+INFO 2024-04-04 19:15:50,180 views 7944 6272 throws successful
+INFO 2024-04-04 19:15:50,286 views 7944 6272 throws successful
+ERROR 2024-04-04 19:15:50,306 log 7944 6272 Internal Server Error: /tasksapp/game/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view tasksapp.views.game_forms didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-04-04 19:15:50,308 basehttp 7944 6272 "POST /tasksapp/game/ HTTP/1.1" 500 67647
+INFO 2024-04-04 19:16:09,689 views 7944 6272 Получили choice_game='throws', attempts=1.
+INFO 2024-04-04 19:16:09,819 views 7944 6272 throws successful
+INFO 2024-04-04 19:16:09,921 views 7944 6272 throws successful
+ERROR 2024-04-04 19:16:09,941 log 7944 6272 Internal Server Error: /tasksapp/game/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view tasksapp.views.game_forms didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-04-04 19:16:09,943 basehttp 7944 6272 "POST /tasksapp/game/ HTTP/1.1" 500 67647
+WARNING 2024-04-04 19:16:22,625 log 7944 6272 Not Found: /tasksapp/
+WARNING 2024-04-04 19:16:22,625 basehttp 7944 6272 "GET /tasksapp/ HTTP/1.1" 404 3899
+INFO 2024-04-04 19:16:30,062 basehttp 7944 6272 "GET /tasksapp/game/ HTTP/1.1" 200 945
+INFO 2024-04-04 19:16:37,316 views 7944 6272 Получили choice_game='throws', attempts=2.
+INFO 2024-04-04 19:16:37,443 views 7944 6272 throws successful
+INFO 2024-04-04 19:16:37,562 views 7944 6272 throws successful
+INFO 2024-04-04 19:16:37,677 views 7944 6272 throws successful
+ERROR 2024-04-04 19:16:37,698 log 7944 6272 Internal Server Error: /tasksapp/game/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view tasksapp.views.game_forms didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-04-04 19:16:37,699 basehttp 7944 6272 "POST /tasksapp/game/ HTTP/1.1" 500 67647
+INFO 2024-04-04 19:18:10,265 autoreload 7944 2032 M:\РАБОТА МИША\Курс Python\django\seminars\tasksapp\views.py changed, reloading.
+INFO 2024-04-04 19:18:10,867 autoreload 8000 6340 Watching for file changes with StatReloader
+INFO 2024-04-04 19:18:11,059 views 8000 10728 Получили choice_game='throws', attempts=2.
+INFO 2024-04-04 19:18:11,165 views 8000 10728 throws successful
+INFO 2024-04-04 19:18:11,166 basehttp 8000 10728 "POST /tasksapp/game/ HTTP/1.1" 200 129
+INFO 2024-04-04 19:18:51,998 basehttp 8000 10728 "GET /tasksapp/game/ HTTP/1.1" 200 945
+INFO 2024-04-04 19:19:01,051 views 8000 10728 Получили choice_game='throws', attempts=3.
+INFO 2024-04-04 19:19:01,172 views 8000 10728 throws successful
+INFO 2024-04-04 19:19:01,173 basehttp 8000 10728 "POST /tasksapp/game/ HTTP/1.1" 200 129
+INFO 2024-04-04 19:19:15,462 basehttp 8000 10728 "GET /tasksapp/game/ HTTP/1.1" 200 945
+INFO 2024-04-04 19:19:23,680 views 8000 10728 Получили choice_game='throws', attempts=3.
+INFO 2024-04-04 19:19:23,804 views 8000 10728 throws successful
+INFO 2024-04-04 19:19:23,804 basehttp 8000 10728 "POST /tasksapp/game/ HTTP/1.1" 200 129
+INFO 2024-04-04 19:19:48,104 autoreload 8000 6340 M:\РАБОТА МИША\Курс Python\django\seminars\tasksapp\views.py changed, reloading.
+INFO 2024-04-04 19:19:48,713 autoreload 8556 3400 Watching for file changes with StatReloader
+INFO 2024-04-04 19:19:57,637 basehttp 8556 14752 "GET /tasksapp/game/ HTTP/1.1" 200 945
+INFO 2024-04-04 19:20:05,192 basehttp 8556 14752 "GET /tasksapp/game/ HTTP/1.1" 200 945
+INFO 2024-04-04 19:20:19,013 views 8556 14752 Получили choice_game='throws', attempts=2.
+ERROR 2024-04-04 19:20:19,049 log 8556 14752 Internal Server Error: /tasksapp/game/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\РАБОТА МИША\Курс Python\django\seminars\tasksapp\views.py", line 115, in game_forms
+    return throws(requests)
+                  ^^^^^^^^
+NameError: name 'requests' is not defined
+ERROR 2024-04-04 19:20:19,051 basehttp 8556 14752 "POST /tasksapp/game/ HTTP/1.1" 500 67421
+INFO 2024-04-04 19:20:34,980 autoreload 8556 3400 M:\РАБОТА МИША\Курс Python\django\seminars\tasksapp\views.py changed, reloading.
+INFO 2024-04-04 19:20:35,533 autoreload 22240 21492 Watching for file changes with StatReloader
+INFO 2024-04-04 19:20:39,430 views 22240 6504 Получили choice_game='throws', attempts=2.
+INFO 2024-04-04 19:20:39,560 views 22240 6504 throws successful
+INFO 2024-04-04 19:20:39,561 basehttp 22240 6504 "POST /tasksapp/game/ HTTP/1.1" 200 127
+INFO 2024-04-04 20:02:44,205 autoreload 22240 21492 M:\РАБОТА МИША\Курс Python\django\seminars\tasksapp\views.py changed, reloading.
+INFO 2024-04-04 20:02:45,469 autoreload 3400 6940 Watching for file changes with StatReloader
+INFO 2024-04-04 20:03:44,845 basehttp 3400 3808 "GET /tasksapp/game/ HTTP/1.1" 200 945
+INFO 2024-04-04 20:03:49,553 views 3400 3808 Получили choice_game='throws', attempts=2.
+INFO 2024-04-04 20:03:49,854 views 3400 3808 3 throws successful
+INFO 2024-04-04 20:03:49,855 basehttp 3400 3808 "POST /tasksapp/game/ HTTP/1.1" 200 572
+INFO 2024-04-04 20:05:40,877 basehttp 3400 3808 "GET /tasksapp/game/ HTTP/1.1" 200 945
+INFO 2024-04-04 20:05:46,223 views 3400 3808 Получили choice_game='throws', attempts=2.
+INFO 2024-04-04 20:05:46,533 views 3400 3808 3 throws successful
+INFO 2024-04-04 20:05:46,537 basehttp 3400 3808 "POST /tasksapp/game/ HTTP/1.1" 200 619
+INFO 2024-04-04 20:06:07,030 basehttp 3400 3808 "GET /tasksapp/game/ HTTP/1.1" 200 945
+INFO 2024-04-04 20:06:11,578 views 3400 3808 Получили choice_game='bones', attempts=3.
+INFO 2024-04-04 20:06:12,128 views 3400 3808 4 bones successful
+ERROR 2024-04-04 20:06:12,165 log 3400 3808 Internal Server Error: /tasksapp/game/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\РАБОТА МИША\Курс Python\django\seminars\tasksapp\views.py", line 137, in game_forms
+    return bones(request, attempts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\РАБОТА МИША\Курс Python\django\seminars\tasksapp\views.py", line 43, in bones
+    return ender(request, 'tasksapp/game_rezults.html', context)
+           ^^^^^
+NameError: name 'ender' is not defined
+ERROR 2024-04-04 20:06:12,167 basehttp 3400 3808 "POST /tasksapp/game/ HTTP/1.1" 500 72858
+INFO 2024-04-04 20:06:30,636 autoreload 3400 6940 M:\РАБОТА МИША\Курс Python\django\seminars\tasksapp\views.py changed, reloading.
+INFO 2024-04-04 20:06:31,247 autoreload 14484 14656 Watching for file changes with StatReloader
+INFO 2024-04-04 20:06:31,483 views 14484 20052 Получили choice_game='bones', attempts=3.
+INFO 2024-04-04 20:06:31,977 views 14484 20052 4 bones successful
+INFO 2024-04-04 20:06:31,982 basehttp 14484 20052 "POST /tasksapp/game/ HTTP/1.1" 200 713
+INFO 2024-04-04 20:06:42,706 basehttp 14484 20052 "GET /tasksapp/game/ HTTP/1.1" 200 945
+INFO 2024-04-04 20:06:46,216 views 14484 20052 Получили choice_game='numbers', attempts=3.
+INFO 2024-04-04 20:06:46,702 views 14484 20052 4 randnumber successful
+INFO 2024-04-04 20:06:46,703 basehttp 14484 20052 "POST /tasksapp/game/ HTTP/1.1" 200 721
+INFO 2024-04-04 20:07:21,090 autoreload 14484 14656 M:\РАБОТА МИША\Курс Python\django\seminars\tasksapp\models.py changed, reloading.
+INFO 2024-04-04 20:07:21,635 autoreload 3356 19572 Watching for file changes with StatReloader
+INFO 2024-04-04 20:07:24,806 basehttp 3356 19804 "GET /tasksapp/game/ HTTP/1.1" 200 945
+INFO 2024-04-04 20:07:26,397 views 3356 19804 Получили choice_game='numbers', attempts=3.
+INFO 2024-04-04 20:07:26,883 views 3356 19804 4 randnumber successful
+INFO 2024-04-04 20:07:26,885 basehttp 3356 19804 "POST /tasksapp/game/ HTTP/1.1" 200 717
+INFO 2024-04-04 20:07:40,444 autoreload 3356 19572 M:\РАБОТА МИША\Курс Python\django\seminars\tasksapp\models.py changed, reloading.
+INFO 2024-04-04 20:07:41,019 autoreload 22224 13204 Watching for file changes with StatReloader
+INFO 2024-04-04 20:07:45,421 views 22224 21348 Получили choice_game='numbers', attempts=3.
+INFO 2024-04-04 20:07:45,907 views 22224 21348 4 randnumber successful
+INFO 2024-04-04 20:07:45,914 basehttp 22224 21348 "POST /tasksapp/game/ HTTP/1.1" 200 724
+WARNING 2024-04-04 20:08:03,605 log 22224 21348 Not Found: /tasksapp/
+WARNING 2024-04-04 20:08:03,606 basehttp 22224 21348 "GET /tasksapp/ HTTP/1.1" 404 3899
+INFO 2024-04-04 20:08:43,166 basehttp 22224 21348 "GET /tasksapp/game/ HTTP/1.1" 200 945
+INFO 2024-04-04 20:08:56,325 views 22224 21348 Получили choice_game='throws', attempts=3.
+INFO 2024-04-04 20:08:56,751 views 22224 21348 4 throws successful
+INFO 2024-04-04 20:08:56,753 basehttp 22224 21348 "POST /tasksapp/game/ HTTP/1.1" 200 747
+INFO 2024-04-04 20:09:07,082 basehttp 22224 21348 "GET /tasksapp/game/ HTTP/1.1" 200 945
+INFO 2024-04-04 20:09:12,701 views 22224 21348 Получили choice_game='bones', attempts=4.
+INFO 2024-04-04 20:09:13,329 views 22224 21348 5 bones successful
+INFO 2024-04-04 20:09:13,330 basehttp 22224 21348 "POST /tasksapp/game/ HTTP/1.1" 200 834
+INFO 2024-04-04 20:09:44,769 autoreload 22224 13204 M:\РАБОТА МИША\Курс Python\django\seminars\tasksapp\views.py changed, reloading.
+INFO 2024-04-04 20:09:45,321 autoreload 8756 14892 Watching for file changes with StatReloader
+INFO 2024-04-04 20:09:50,850 views 8756 15596 Получили choice_game='bones', attempts=4.
+INFO 2024-04-04 20:09:51,353 views 8756 15596 4 bones successful
+INFO 2024-04-04 20:09:51,358 basehttp 8756 15596 "POST /tasksapp/game/ HTTP/1.1" 200 713
+INFO 2024-04-04 20:09:55,844 basehttp 8756 15596 "GET /tasksapp/game/ HTTP/1.1" 200 945
+INFO 2024-04-04 20:09:58,549 views 8756 15596 Получили choice_game='bones', attempts=4.
+INFO 2024-04-04 20:09:59,070 views 8756 15596 4 bones successful
+INFO 2024-04-04 20:09:59,071 basehttp 8756 15596 "POST /tasksapp/game/ HTTP/1.1" 200 713
+INFO 2024-04-04 21:05:56,061 autoreload 8756 14892 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\models.py changed, reloading.
+INFO 2024-04-04 21:05:56,755 autoreload 2172 1432 Watching for file changes with StatReloader
+INFO 2024-04-04 22:07:39,079 autoreload 2172 1432 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\models.py changed, reloading.
+INFO 2024-04-04 22:07:40,195 autoreload 9396 6872 Watching for file changes with StatReloader
+INFO 2024-04-04 22:31:51,507 autoreload 6868 21740 Watching for file changes with StatReloader
+INFO 2024-04-04 22:32:22,286 autoreload 6868 21740 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\forms.py changed, reloading.
+INFO 2024-04-04 22:32:22,825 autoreload 10448 9064 Watching for file changes with StatReloader
+INFO 2024-04-04 22:32:58,178 basehttp 10448 19892 "GET /dz2app/form/product HTTP/1.1" 301 0
+ERROR 2024-04-04 22:32:58,258 log 10448 296 Internal Server Error: /dz2app/form/product/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: dz2app/base_form.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\views.py", line 90, in product_form
+    return render(request, 'dz2app/form.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: dz2app/base_form.html
+ERROR 2024-04-04 22:32:58,264 basehttp 10448 296 "GET /dz2app/form/product/ HTTP/1.1" 500 132692
+INFO 2024-04-04 22:35:52,383 basehttp 10448 296 "GET /dz2app/form/product/ HTTP/1.1" 200 1223
+INFO 2024-04-04 22:38:11,132 basehttp 10448 296 "GET /dz2app/form/product/ HTTP/1.1" 200 1255
+WARNING 2024-04-04 22:39:28,464 log 10448 296 Not Found: /dz2app/form/product/dz2app/form/product/
+WARNING 2024-04-04 22:39:28,465 basehttp 10448 296 "POST /dz2app/form/product/dz2app/form/product/ HTTP/1.1" 404 3228
+WARNING 2024-04-04 22:40:25,217 log 10448 296 Not Found: /dz2app/form/product/dz2app/form/product/
+WARNING 2024-04-04 22:40:25,218 basehttp 10448 296 "POST /dz2app/form/product/dz2app/form/product/ HTTP/1.1" 404 3228
+WARNING 2024-04-04 22:41:20,799 log 10448 296 Not Found: /dz2app/
+WARNING 2024-04-04 22:41:20,799 basehttp 10448 296 "GET /dz2app/ HTTP/1.1" 404 3128
+INFO 2024-04-04 22:41:34,697 basehttp 10448 296 "GET /dz2app/form/product/ HTTP/1.1" 200 1235
+INFO 2024-04-04 22:41:50,963 basehttp 10448 296 "POST /dz2app/form/product/ HTTP/1.1" 200 72
+INFO 2024-04-04 22:43:26,769 autoreload 10448 9064 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\models.py changed, reloading.
+INFO 2024-04-04 22:43:27,352 autoreload 9968 13372 Watching for file changes with StatReloader
+INFO 2024-04-04 22:43:29,263 basehttp 9968 9356 "GET /dz2app/form/product/ HTTP/1.1" 200 1235
+INFO 2024-04-04 22:43:46,569 basehttp 9968 9356 "POST /dz2app/form/product/ HTTP/1.1" 200 177
+INFO 2024-04-04 22:44:47,063 autoreload 9968 13372 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\views.py changed, reloading.
+INFO 2024-04-04 22:44:47,622 autoreload 13416 5788 Watching for file changes with StatReloader
+INFO 2024-04-04 22:44:47,935 basehttp 13416 10852 "GET /dz2app/form/product/ HTTP/1.1" 200 1235
+INFO 2024-04-04 22:44:54,391 basehttp 13416 10852 "POST /dz2app/form/product/ HTTP/1.1" 200 177
+INFO 2024-04-04 22:45:37,917 autoreload 13416 5788 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\forms.py changed, reloading.
+INFO 2024-04-04 22:45:38,524 autoreload 16056 21084 Watching for file changes with StatReloader
+INFO 2024-04-04 22:48:36,146 autoreload 16056 21084 M:\РАБОТА МИША\Курс Python\django\seminars\seminars\settings.py changed, reloading.
+INFO 2024-04-04 22:48:36,726 autoreload 13892 8088 Watching for file changes with StatReloader
+INFO 2024-04-04 23:01:32,658 autoreload 13892 8088 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\models.py changed, reloading.
+INFO 2024-04-04 23:01:33,475 autoreload 11028 2460 Watching for file changes with StatReloader
+INFO 2024-04-04 23:10:37,143 autoreload 11028 2460 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\models.py changed, reloading.
+INFO 2024-04-04 23:10:37,735 autoreload 4792 19604 Watching for file changes with StatReloader
+INFO 2024-04-04 23:24:26,183 autoreload 21356 21368 Watching for file changes with StatReloader
+WARNING 2024-04-04 23:24:42,243 log 21356 21064 Not Found: /dz2app/form/
+WARNING 2024-04-04 23:24:42,244 basehttp 21356 21064 "GET /dz2app/form/ HTTP/1.1" 404 3143
+INFO 2024-04-04 23:24:51,952 basehttp 21356 21064 "GET /dz2app/form/product/ HTTP/1.1" 200 1391
+INFO 2024-04-04 23:27:23,226 basehttp 21356 21064 "POST /dz2app/form/product/ HTTP/1.1" 200 364
+INFO 2024-04-04 23:28:07,165 basehttp 21356 21064 "GET /dz2app/form/product/ HTTP/1.1" 200 1391
+INFO 2024-04-04 23:32:18,226 autoreload 21356 21368 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\forms.py changed, reloading.
+INFO 2024-04-04 23:32:18,946 autoreload 4284 7544 Watching for file changes with StatReloader
+INFO 2024-04-04 23:38:49,348 autoreload 4284 7544 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\forms.py changed, reloading.
+INFO 2024-04-04 23:38:50,029 autoreload 18548 1652 Watching for file changes with StatReloader
+INFO 2024-04-04 23:39:01,953 basehttp 18548 11968 "GET /dz2app/form/customer HTTP/1.1" 301 0
+ERROR 2024-04-04 23:39:01,990 log 18548 6504 Internal Server Error: /dz2app/form/customer/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\views.py", line 113, in customer_form
+    form = CustomerForm()
+           ^^^^^^^^^^^^
+NameError: name 'CustomerForm' is not defined
+ERROR 2024-04-04 23:39:01,993 basehttp 18548 6504 "GET /dz2app/form/customer/ HTTP/1.1" 500 65092
+INFO 2024-04-04 23:39:31,930 autoreload 18548 1652 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\views.py changed, reloading.
+INFO 2024-04-04 23:39:32,512 autoreload 4252 5344 Watching for file changes with StatReloader
+INFO 2024-04-04 23:39:34,163 basehttp 4252 9184 "GET /dz2app/form/customer/ HTTP/1.1" 200 1321
+INFO 2024-04-04 23:40:46,182 basehttp 4252 9184 "POST /dz2app/form/customer/ HTTP/1.1" 200 117
+INFO 2024-04-04 23:54:20,721 autoreload 4252 5344 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\views.py changed, reloading.
+INFO 2024-04-04 23:54:21,436 autoreload 3944 13512 Watching for file changes with StatReloader
+INFO 2024-04-05 00:07:26,647 autoreload 3944 13512 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\views.py changed, reloading.
+INFO 2024-04-05 00:07:27,192 autoreload 10780 4600 Watching for file changes with StatReloader
+INFO 2024-04-05 00:08:00,792 autoreload 10780 4600 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\views.py changed, reloading.
+INFO 2024-04-05 00:08:01,320 autoreload 18564 19488 Watching for file changes with StatReloader
+WARNING 2024-04-05 00:08:14,963 log 18564 16228 Not Found: /dz2app/form/order/
+WARNING 2024-04-05 00:08:14,964 basehttp 18564 16228 "GET /dz2app/form/order/ HTTP/1.1" 404 3351
+INFO 2024-04-05 00:08:27,378 autoreload 18564 19488 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\urls.py changed, reloading.
+INFO 2024-04-05 00:08:27,985 autoreload 18280 6636 Watching for file changes with StatReloader
+INFO 2024-04-05 00:08:30,299 basehttp 18280 18488 "GET /dz2app/form/order/ HTTP/1.1" 200 4502
+INFO 2024-04-05 00:25:32,549 autoreload 8944 9968 Watching for file changes with StatReloader
+ERROR 2024-04-05 00:25:41,094 log 8944 2084 Internal Server Error: /dz2app/form/order/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\views.py", line 131, in order_form
+    form = OrderForm()
+           ^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\forms\models.py", line 360, in __init__
+    raise ValueError("ModelForm has no model class specified.")
+ValueError: ModelForm has no model class specified.
+ERROR 2024-04-05 00:25:41,097 basehttp 8944 2084 "GET /dz2app/form/order/ HTTP/1.1" 500 71365
+INFO 2024-04-05 00:27:15,248 autoreload 8944 9968 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\forms.py changed, reloading.
+INFO 2024-04-05 00:27:15,825 autoreload 21740 19444 Watching for file changes with StatReloader
+INFO 2024-04-05 00:27:18,356 basehttp 21740 11084 "GET /dz2app/form/order/ HTTP/1.1" 200 499
+INFO 2024-04-05 00:30:57,251 autoreload 21740 19444 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\forms.py changed, reloading.
+INFO 2024-04-05 00:30:57,815 autoreload 4156 13956 Watching for file changes with StatReloader
+INFO 2024-04-05 00:31:09,585 basehttp 4156 5700 "GET /dz2app/form/order/ HTTP/1.1" 200 499
+INFO 2024-04-05 00:31:14,366 basehttp 4156 5700 "GET /dz2app/form/order/ HTTP/1.1" 200 499
+INFO 2024-04-05 00:31:44,852 autoreload 4156 13956 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\forms.py changed, reloading.
+INFO 2024-04-05 00:31:45,411 autoreload 15764 15032 Watching for file changes with StatReloader
+INFO 2024-04-05 00:31:54,623 basehttp 15764 2156 "GET /dz2app/form/order/ HTTP/1.1" 200 499
+ERROR 2024-04-05 00:31:58,424 log 15764 2156 Internal Server Error: /dz2app/form/order/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view dz2app.views.order_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-04-05 00:31:58,426 basehttp 15764 2156 "POST /dz2app/form/order/ HTTP/1.1" 500 67653
+INFO 2024-04-05 00:34:28,191 autoreload 15764 15032 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\forms.py changed, reloading.
+INFO 2024-04-05 00:34:28,769 autoreload 9800 14800 Watching for file changes with StatReloader
+INFO 2024-04-05 00:34:33,228 basehttp 9800 19380 "GET /dz2app/form/order/ HTTP/1.1" 200 1782
+INFO 2024-04-05 00:35:29,564 autoreload 9800 14800 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\forms.py changed, reloading.
+INFO 2024-04-05 00:35:30,163 autoreload 10120 6096 Watching for file changes with StatReloader
+INFO 2024-04-05 00:36:23,219 autoreload 10120 6096 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\forms.py changed, reloading.
+INFO 2024-04-05 00:36:23,780 autoreload 22524 16244 Watching for file changes with StatReloader
+INFO 2024-04-05 00:36:27,324 basehttp 22524 11380 "GET /dz2app/form/order/ HTTP/1.1" 200 1807
+INFO 2024-04-05 00:37:48,569 autoreload 22524 16244 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\forms.py changed, reloading.
+INFO 2024-04-05 00:37:49,215 autoreload 940 17012 Watching for file changes with StatReloader
+INFO 2024-04-05 00:38:58,240 autoreload 940 17012 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\forms.py changed, reloading.
+INFO 2024-04-05 00:38:58,786 autoreload 19440 1652 Watching for file changes with StatReloader
+INFO 2024-04-05 00:39:02,286 basehttp 19440 8320 "GET /dz2app/form/order/ HTTP/1.1" 200 4016
+INFO 2024-04-05 00:40:35,267 autoreload 19440 1652 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\forms.py changed, reloading.
+INFO 2024-04-05 00:40:36,019 autoreload 4776 3796 Watching for file changes with StatReloader
+INFO 2024-04-05 00:40:50,334 autoreload 4776 3796 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\forms.py changed, reloading.
+INFO 2024-04-05 00:40:50,901 autoreload 1984 21828 Watching for file changes with StatReloader
+INFO 2024-04-05 00:40:56,129 basehttp 1984 8720 "GET /dz2app/form/order/ HTTP/1.1" 200 1966
+INFO 2024-04-05 00:51:45,719 autoreload 1984 21828 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\forms.py changed, reloading.
+INFO 2024-04-05 00:51:46,294 autoreload 9340 3044 Watching for file changes with StatReloader
+INFO 2024-04-05 00:51:51,346 basehttp 9340 6484 "GET /dz2app/form/order/ HTTP/1.1" 200 1861
+INFO 2024-04-05 00:51:52,679 basehttp 9340 6484 "GET /dz2app/form/order/ HTTP/1.1" 200 1861
+INFO 2024-04-05 00:52:28,080 autoreload 9340 3044 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\forms.py changed, reloading.
+INFO 2024-04-05 00:52:28,653 autoreload 6488 3088 Watching for file changes with StatReloader
+INFO 2024-04-05 00:52:30,676 basehttp 6488 8668 "GET /dz2app/form/order/ HTTP/1.1" 200 1782
+INFO 2024-04-05 00:52:32,056 basehttp 6488 8668 "GET /dz2app/form/order/ HTTP/1.1" 200 1782
+INFO 2024-04-05 00:54:15,511 autoreload 6488 3088 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\forms.py changed, reloading.
+INFO 2024-04-05 00:54:16,083 autoreload 9756 20628 Watching for file changes with StatReloader
+INFO 2024-04-05 00:54:17,930 basehttp 9756 7928 "GET /dz2app/form/order/ HTTP/1.1" 200 5391
+INFO 2024-04-05 00:57:32,250 autoreload 9756 20628 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\views.py changed, reloading.
+INFO 2024-04-05 00:57:32,868 autoreload 20072 12120 Watching for file changes with StatReloader
+ERROR 2024-04-05 00:57:35,970 log 20072 6620 Internal Server Error: /dz2app/form/order/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\views.py", line 120, in order_form
+    products = form.cleaned_data['products']
+               ^^^^^^^^^^^^^^^^^
+AttributeError: 'OrderForm' object has no attribute 'cleaned_data'
+ERROR 2024-04-05 00:57:35,973 basehttp 20072 6620 "POST /dz2app/form/order/ HTTP/1.1" 500 67210
+INFO 2024-04-05 00:58:33,768 autoreload 20072 12120 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\views.py changed, reloading.
+INFO 2024-04-05 00:58:34,313 autoreload 18416 21256 Watching for file changes with StatReloader
+ERROR 2024-04-05 00:58:39,499 log 18416 6748 Internal Server Error: /dz2app/form/order/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\views.py", line 120, in order_form
+    customer = form.cleaned_data['customer']
+               ^^^^^^^^^^^^^^^^^
+AttributeError: 'OrderForm' object has no attribute 'cleaned_data'
+ERROR 2024-04-05 00:58:39,501 basehttp 18416 6748 "POST /dz2app/form/order/ HTTP/1.1" 500 67149
+INFO 2024-04-05 01:00:33,805 autoreload 18416 21256 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\views.py changed, reloading.
+INFO 2024-04-05 01:00:34,407 autoreload 15768 8260 Watching for file changes with StatReloader
+ERROR 2024-04-05 01:00:46,765 log 15768 476 Internal Server Error: /dz2app/form/order/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view dz2app.views.order_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-04-05 01:00:46,767 basehttp 15768 476 "POST /dz2app/form/order/ HTTP/1.1" 500 67784
+INFO 2024-04-05 01:18:09,052 autoreload 15768 8260 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\views.py changed, reloading.
+INFO 2024-04-05 01:18:09,641 autoreload 7052 15816 Watching for file changes with StatReloader
+ERROR 2024-04-05 01:19:27,482 log 7052 18656 Internal Server Error: /dz2app/form/order/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\views.py", line 124, in order_form
+    order = Order(customer=customer,
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\base.py", line 564, in __init__
+    _setattr(self, prop, value)
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 659, in __set__
+    raise TypeError(
+TypeError: Direct assignment to the forward side of a many-to-many set is prohibited. Use products.set() instead.
+ERROR 2024-04-05 01:19:27,485 basehttp 7052 18656 "POST /dz2app/form/order/ HTTP/1.1" 500 82310
+INFO 2024-04-05 01:21:26,719 autoreload 7052 15816 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\views.py changed, reloading.
+INFO 2024-04-05 01:21:27,263 autoreload 8724 2136 Watching for file changes with StatReloader
+ERROR 2024-04-05 01:21:46,834 log 8724 20132 Internal Server Error: /dz2app/form/order/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\views.py", line 136, in order_form
+    order.view_products = json.dumps(order.id_product_QUANTITY)
+                          ^^^^
+NameError: name 'json' is not defined
+ERROR 2024-04-05 01:21:46,836 basehttp 8724 20132 "POST /dz2app/form/order/ HTTP/1.1" 500 69163
+INFO 2024-04-05 01:22:08,440 autoreload 8724 2136 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\views.py changed, reloading.
+INFO 2024-04-05 01:22:08,998 autoreload 21368 14124 Watching for file changes with StatReloader
+INFO 2024-04-05 01:22:16,170 basehttp 21368 16664 "GET /dz2app/form/order/ HTTP/1.1" 200 5387
+INFO 2024-04-05 01:23:05,319 basehttp 21368 16664 "GET /dz2app/form/order/ HTTP/1.1" 200 5387
+INFO 2024-04-05 01:23:28,484 basehttp 21368 16664 "POST /dz2app/form/order/ HTTP/1.1" 200 252
+INFO 2024-04-05 01:23:57,631 basehttp 21368 16664 "GET /dz2app/form/order/ HTTP/1.1" 200 5387
+INFO 2024-04-05 01:24:10,449 basehttp 21368 16664 "POST /dz2app/form/order/ HTTP/1.1" 200 325
+INFO 2024-04-05 01:24:29,068 basehttp 21368 16664 "GET /dz2app/form/order/ HTTP/1.1" 200 5387
+INFO 2024-04-05 01:24:41,499 basehttp 21368 16664 "POST /dz2app/form/order/ HTTP/1.1" 200 668

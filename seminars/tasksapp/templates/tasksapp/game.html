@@ -1,0 +1,8 @@
+{% extends 'tasksapp/base_game.html' %}
+    {% block content %}
+        <form action="/tasksapp/game/" method="post">
+            {% csrf_token %}
+                {{ form }}
+        <input type="submit" value="Начать игру">
+        </form>
+    {% endblock %}
