@@ -126,16 +126,15 @@ def order_form(request):
                           date_ordered=timezone.now(),
                           total_price=total_price)
             order.save()
-            if products:
-                for product in products:
-                    order.products.add(product)
-                    total_price += product.price
-                    order.id_product_QUANTITY[product.pk] = 1
-                    product.volume -= 1
-                    product.save()
-                order.total_price = total_price
-                order.view_products = json.dumps(order.id_product_QUANTITY)
-                order.save()
+            for product in products:
+                order.products.add(product)
+                total_price += product.price
+                order.id_product_QUANTITY[product.pk] = 1
+                product.volume -= 1
+                product.save()
+            order.total_price = total_price
+            order.view_products = json.dumps(order.id_product_QUANTITY)
+            order.save()
             logger.info(f'Создан заказ: #{order.pk}, на сумму {total_price}.')
             return HttpResponse(f"В базе сохранен заказ: {order}")
     else:

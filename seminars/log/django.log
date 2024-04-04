@@ -3533,3 +3533,60 @@ INFO 2024-04-05 01:23:57,631 basehttp 21368 16664 "GET /dz2app/form/order/ HTTP/
 INFO 2024-04-05 01:24:10,449 basehttp 21368 16664 "POST /dz2app/form/order/ HTTP/1.1" 200 325
 INFO 2024-04-05 01:24:29,068 basehttp 21368 16664 "GET /dz2app/form/order/ HTTP/1.1" 200 5387
 INFO 2024-04-05 01:24:41,499 basehttp 21368 16664 "POST /dz2app/form/order/ HTTP/1.1" 200 668
+INFO 2024-04-05 01:33:12,101 autoreload 18640 6612 Watching for file changes with StatReloader
+INFO 2024-04-05 01:33:17,341 basehttp 18640 19788 "GET /dz2app/form/order/ HTTP/1.1" 200 5387
+ERROR 2024-04-05 01:33:23,896 log 18640 19788 Internal Server Error: /dz2app/form/order/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view dz2app.views.order_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-04-05 01:33:23,898 basehttp 18640 19788 "POST /dz2app/form/order/ HTTP/1.1" 500 67655
+INFO 2024-04-05 01:34:58,372 autoreload 18640 6612 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\views.py changed, reloading.
+INFO 2024-04-05 01:34:58,924 autoreload 8640 20980 Watching for file changes with StatReloader
+ERROR 2024-04-05 01:35:02,155 log 8640 6832 Internal Server Error: /dz2app/form/order/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view dz2app.views.order_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-04-05 01:35:02,157 basehttp 8640 6832 "POST /dz2app/form/order/ HTTP/1.1" 500 67655
+INFO 2024-04-05 01:35:37,616 autoreload 8640 20980 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\views.py changed, reloading.
+INFO 2024-04-05 01:35:38,194 autoreload 14100 14540 Watching for file changes with StatReloader
+ERROR 2024-04-05 01:35:42,792 log 14100 21176 Internal Server Error: /dz2app/form/order/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view dz2app.views.order_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-04-05 01:35:42,793 basehttp 14100 21176 "POST /dz2app/form/order/ HTTP/1.1" 500 67655
+INFO 2024-04-05 01:36:24,440 basehttp 14100 21176 "POST /dz2app/form/order/ HTTP/1.1" 200 255
+INFO 2024-04-05 01:37:04,024 basehttp 14100 21176 "GET /dz2app/form/order/ HTTP/1.1" 200 5387
+INFO 2024-04-05 01:37:04,503 autoreload 14100 14540 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\views.py changed, reloading.
+INFO 2024-04-05 01:37:05,176 autoreload 20844 16272 Watching for file changes with StatReloader
+ERROR 2024-04-05 01:37:06,607 log 20844 20920 Internal Server Error: /dz2app/form/order/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view dz2app.views.order_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-04-05 01:37:06,609 basehttp 20844 20920 "POST /dz2app/form/order/ HTTP/1.1" 500 67655
+INFO 2024-04-05 01:39:57,202 autoreload 20844 16272 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\views.py changed, reloading.
+INFO 2024-04-05 01:39:58,188 autoreload 20584 5492 Watching for file changes with StatReloader
+INFO 2024-04-05 01:40:07,599 basehttp 20584 14964 "POST /dz2app/form/order/ HTTP/1.1" 200 255
