@@ -73,6 +73,6 @@ class Order(models.Model):
     def __str__(self):
         return f'Datetime order: {self.date_ordered},\nTotal: {self.total_price},\n' \
                f'Customer: {self.customer}' \
-               f'\nProducts:\n\t{self.get_product()}'
+               # f'\nProducts:\n\t{self.get_product()}'
 
 

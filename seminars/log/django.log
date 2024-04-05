@@ -3590,3 +3590,763 @@ ERROR 2024-04-05 01:37:06,609 basehttp 20844 20920 "POST /dz2app/form/order/ HTT
 INFO 2024-04-05 01:39:57,202 autoreload 20844 16272 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\views.py changed, reloading.
 INFO 2024-04-05 01:39:58,188 autoreload 20584 5492 Watching for file changes with StatReloader
 INFO 2024-04-05 01:40:07,599 basehttp 20584 14964 "POST /dz2app/form/order/ HTTP/1.1" 200 255
+INFO 2024-04-05 22:49:40,210 autoreload 23316 23968 Watching for file changes with StatReloader
+INFO 2024-04-05 22:49:51,512 basehttp 23316 352 "GET /admin HTTP/1.1" 301 0
+INFO 2024-04-05 22:49:51,530 basehttp 23316 15500 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-04-05 22:49:51,636 basehttp 23316 15500 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+INFO 2024-04-05 22:49:51,804 basehttp 23316 5208 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+INFO 2024-04-05 22:49:51,819 basehttp 23316 15500 "GET /static/admin/css/base.css HTTP/1.1" 200 21544
+INFO 2024-04-05 22:49:51,830 basehttp 23316 3864 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2024-04-05 22:49:51,834 basehttp 23316 6024 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2024-04-05 22:49:51,835 basehttp 23316 14164 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+INFO 2024-04-05 22:49:51,849 basehttp 23316 15500 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2024-04-05 22:49:51,852 basehttp 23316 5208 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-04-05 22:50:35,303 autoreload 23316 23968 M:\РАБОТА МИША\Курс Python\django\seminars\seminars\settings.py changed, reloading.
+INFO 2024-04-05 22:50:35,937 autoreload 23308 16368 Watching for file changes with StatReloader
+INFO 2024-04-05 22:50:41,202 basehttp 23308 6556 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-04-05 22:52:16,924 autoreload 24256 21540 Watching for file changes with StatReloader
+INFO 2024-04-05 22:52:37,862 basehttp 24256 1512 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-04-05 22:52:37,915 basehttp 24256 1512 "GET /admin/ HTTP/1.1" 200 5951
+INFO 2024-04-05 22:52:37,995 basehttp 24256 1512 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2024-04-05 22:52:38,013 basehttp 24256 1512 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-04-05 22:52:38,013 basehttp 24256 11588 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-04-05 22:53:48,505 autoreload 24256 21540 M:\РАБОТА МИША\Курс Python\django\seminars\tasksapp\admin.py changed, reloading.
+INFO 2024-04-05 22:53:49,439 autoreload 7036 18748 Watching for file changes with StatReloader
+INFO 2024-04-05 22:57:30,186 autoreload 7036 18748 M:\РАБОТА МИША\Курс Python\django\seminars\tasksapp\admin.py changed, reloading.
+INFO 2024-04-05 22:57:30,786 autoreload 5072 16020 Watching for file changes with StatReloader
+INFO 2024-04-05 22:58:01,811 autoreload 5072 16020 M:\РАБОТА МИША\Курс Python\django\seminars\tasksapp\admin.py changed, reloading.
+INFO 2024-04-05 22:58:02,398 autoreload 9408 8848 Watching for file changes with StatReloader
+INFO 2024-04-05 22:58:13,686 basehttp 9408 23588 "GET /admin/ HTTP/1.1" 200 7545
+INFO 2024-04-05 22:59:25,227 basehttp 9408 23588 "GET /admin/tasksapp/bones/ HTTP/1.1" 200 25804
+INFO 2024-04-05 22:59:25,312 basehttp 9408 9888 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-05 22:59:25,451 basehttp 9408 23588 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+INFO 2024-04-05 22:59:25,456 basehttp 9408 22648 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2024-04-05 22:59:25,468 basehttp 9408 23108 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2024-04-05 22:59:25,468 basehttp 9408 14804 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
+INFO 2024-04-05 22:59:25,469 basehttp 9408 23588 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2024-04-05 22:59:25,472 basehttp 9408 22648 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2024-04-05 22:59:25,480 basehttp 9408 9888 "GET /static/admin/js/actions.js HTTP/1.1" 200 8067
+INFO 2024-04-05 22:59:25,484 basehttp 9408 10456 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2024-04-05 22:59:25,512 basehttp 9408 23588 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2024-04-05 22:59:25,554 basehttp 9408 10456 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2024-04-05 22:59:25,592 basehttp 9408 23588 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2024-04-05 22:59:36,473 basehttp 9408 23588 "GET /admin/tasksapp/numbers/ HTTP/1.1" 200 16896
+INFO 2024-04-05 22:59:36,519 basehttp 9408 23588 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-05 22:59:39,506 basehttp 9408 23588 "GET /admin/tasksapp/throws/ HTTP/1.1" 200 25443
+INFO 2024-04-05 22:59:39,564 basehttp 9408 23588 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-05 22:59:45,944 basehttp 9408 23588 "GET /admin/auth/group/ HTTP/1.1" 200 8958
+INFO 2024-04-05 22:59:45,989 basehttp 9408 23588 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2024-04-05 22:59:45,990 basehttp 9408 10456 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-05 22:59:48,071 basehttp 9408 23588 "GET /admin/auth/user/ HTTP/1.1" 200 13113
+INFO 2024-04-05 22:59:48,131 basehttp 9408 10456 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-05 22:59:48,131 basehttp 9408 23588 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2024-04-05 22:59:48,165 basehttp 9408 23588 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2024-04-05 22:59:48,165 basehttp 9408 10456 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2024-04-05 23:14:16,371 basehttp 9408 4728 "GET /admin/tasksapp/throws/ HTTP/1.1" 200 25443
+INFO 2024-04-05 23:14:16,428 basehttp 9408 4728 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-05 23:14:18,888 basehttp 9408 4728 "GET /admin/tasksapp/throws/30/change/ HTTP/1.1" 200 11114
+INFO 2024-04-05 23:14:18,950 basehttp 9408 4728 "GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+INFO 2024-04-05 23:14:18,969 basehttp 9408 9356 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-05 23:14:18,976 basehttp 9408 10224 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2024-04-05 23:14:18,981 basehttp 9408 20984 "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+INFO 2024-04-05 23:14:18,983 basehttp 9408 11524 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2024-04-05 23:14:18,993 basehttp 9408 9356 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11800
+INFO 2024-04-05 23:14:19,020 basehttp 9408 9356 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2024-04-05 23:14:19,058 basehttp 9408 20984 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2024-04-05 23:14:19,058 basehttp 9408 9356 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2024-04-05 23:14:46,774 basehttp 9408 9356 "POST /admin/tasksapp/throws/30/change/ HTTP/1.1" 302 0
+INFO 2024-04-05 23:14:46,793 basehttp 9408 9356 "GET /admin/tasksapp/throws/add/ HTTP/1.1" 200 10949
+INFO 2024-04-05 23:14:46,881 basehttp 9408 9356 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-05 23:15:18,888 basehttp 9408 9356 "POST /admin/tasksapp/throws/add/ HTTP/1.1" 302 0
+INFO 2024-04-05 23:15:18,917 basehttp 9408 9356 "GET /admin/tasksapp/throws/ HTTP/1.1" 200 26222
+INFO 2024-04-05 23:15:18,980 basehttp 9408 9356 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-05 23:15:29,068 basehttp 9408 9356 "POST /admin/tasksapp/throws/ HTTP/1.1" 200 8852
+INFO 2024-04-05 23:15:29,118 basehttp 9408 9356 "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+INFO 2024-04-05 23:15:30,770 basehttp 9408 9356 "POST /admin/tasksapp/throws/ HTTP/1.1" 302 0
+INFO 2024-04-05 23:15:30,801 basehttp 9408 9356 "GET /admin/tasksapp/throws/ HTTP/1.1" 200 25574
+INFO 2024-04-05 23:15:30,862 basehttp 9408 9356 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-05 23:22:52,628 autoreload 9408 8848 M:\РАБОТА МИША\Курс Python\django\seminars\tasksapp\admin.py changed, reloading.
+INFO 2024-04-05 23:22:53,531 autoreload 22616 23136 Watching for file changes with StatReloader
+INFO 2024-04-05 23:24:10,788 autoreload 22616 23136 M:\РАБОТА МИША\Курс Python\django\seminars\tasksapp\admin.py changed, reloading.
+INFO 2024-04-05 23:24:11,360 autoreload 12056 2132 Watching for file changes with StatReloader
+INFO 2024-04-05 23:24:26,232 basehttp 12056 24244 "GET /admin/ HTTP/1.1" 200 10439
+INFO 2024-04-05 23:24:26,407 basehttp 12056 24244 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2024-04-05 23:24:43,335 basehttp 12056 24244 "GET /admin/dz2app/customer/ HTTP/1.1" 200 16538
+INFO 2024-04-05 23:24:43,398 basehttp 12056 24244 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+ERROR 2024-04-05 23:24:47,940 log 12056 24244 Internal Server Error: /admin/dz2app/order/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\admin\templatetags\base.py", line 45, in render
+    return super().render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\library.py", line 258, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 345, in result_list
+    "results": list(results(cl)),
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 321, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 312, in __init__
+    super().__init__(*items)
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 217, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\admin\utils.py", line 298, in lookup_field
+    value = attr(obj)
+            ^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\admin\options.py", line 999, in action_checkbox
+    "aria-label": format_html(_("Select this object for an action - {}"), obj),
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\html.py", line 135, in format_html
+    return mark_safe(format_string.format(*args_safe, **kwargs_safe))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\html.py", line 117, in conditional_escape
+    return escape(text)
+           ^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\functional.py", line 231, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\html.py", line 50, in escape
+    return SafeString(html.escape(str(text)))
+                                  ^^^^^^^^^
+  File "M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\models.py", line 76, in __str__
+    f'\nProducts:\n\t{self.get_product()}'
+                      ^^^^^^^^^^^^^^^^^^
+  File "M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\models.py", line 43, in get_product
+    view_products = json.loads(str(self.view_products))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-04-05 23:24:47,955 basehttp 12056 24244 "GET /admin/dz2app/order/ HTTP/1.1" 500 444990
+INFO 2024-04-05 23:34:36,563 autoreload 12056 2132 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\models.py changed, reloading.
+INFO 2024-04-05 23:34:37,201 autoreload 22972 11756 Watching for file changes with StatReloader
+ERROR 2024-04-05 23:34:49,102 log 22972 11624 Internal Server Error: /admin/dz2app/order/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\admin\templatetags\base.py", line 45, in render
+    return super().render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\library.py", line 258, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 345, in result_list
+    "results": list(results(cl)),
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 321, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 312, in __init__
+    super().__init__(*items)
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 217, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\admin\utils.py", line 298, in lookup_field
+    value = attr(obj)
+            ^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\admin\options.py", line 999, in action_checkbox
+    "aria-label": format_html(_("Select this object for an action - {}"), obj),
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\html.py", line 135, in format_html
+    return mark_safe(format_string.format(*args_safe, **kwargs_safe))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\html.py", line 117, in conditional_escape
+    return escape(text)
+           ^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\functional.py", line 231, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\html.py", line 50, in escape
+    return SafeString(html.escape(str(text)))
+                                  ^^^^^^^^^
+  File "M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\models.py", line 76, in __str__
+    f'\nProducts:\n\t{self.get_product()}'
+                      ^^^^^^^^^^^^^^^^^^
+  File "M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\models.py", line 43, in get_product
+    view_products = json.loads(self.view_products)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-04-05 23:34:49,116 basehttp 22972 11624 "GET /admin/dz2app/order/ HTTP/1.1" 500 445107
+INFO 2024-04-05 23:34:52,153 basehttp 22972 11624 "GET /admin/dz2app/customer/ HTTP/1.1" 200 16538
+INFO 2024-04-05 23:35:02,316 autoreload 22972 11756 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\models.py changed, reloading.
+INFO 2024-04-05 23:35:02,991 autoreload 18280 8904 Watching for file changes with StatReloader
+INFO 2024-04-05 23:35:13,751 basehttp 18280 12120 "GET /admin/dz2app/customer/ HTTP/1.1" 200 16538
+INFO 2024-04-05 23:35:13,793 basehttp 18280 12120 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-05 23:35:15,496 basehttp 18280 12120 "GET /admin/dz2app/customer/add/ HTTP/1.1" 200 13430
+INFO 2024-04-05 23:35:15,558 basehttp 18280 12120 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-05 23:35:24,869 basehttp 18280 12120 "GET /admin/dz2app/product/ HTTP/1.1" 200 18090
+INFO 2024-04-05 23:35:24,913 basehttp 18280 12120 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-05 23:35:28,577 basehttp 18280 12120 "GET /admin/dz2app/product/12/change/ HTTP/1.1" 200 15275
+INFO 2024-04-05 23:35:28,635 basehttp 18280 12120 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+ERROR 2024-04-05 23:35:51,415 log 18280 12120 Internal Server Error: /admin/dz2app/order/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\admin\templatetags\base.py", line 45, in render
+    return super().render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\library.py", line 258, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 345, in result_list
+    "results": list(results(cl)),
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 321, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 312, in __init__
+    super().__init__(*items)
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 217, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\admin\utils.py", line 298, in lookup_field
+    value = attr(obj)
+            ^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\admin\options.py", line 999, in action_checkbox
+    "aria-label": format_html(_("Select this object for an action - {}"), obj),
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\html.py", line 135, in format_html
+    return mark_safe(format_string.format(*args_safe, **kwargs_safe))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\html.py", line 117, in conditional_escape
+    return escape(text)
+           ^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\functional.py", line 231, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\html.py", line 50, in escape
+    return SafeString(html.escape(str(text)))
+                                  ^^^^^^^^^
+  File "M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\models.py", line 76, in __str__
+    f'\nProducts:\n\t{self.get_product()}'
+                      ^^^^^^^^^^^^^^^^^^
+  File "M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\models.py", line 43, in get_product
+    view_products = json.loads(str(self.view_products))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR 2024-04-05 23:35:51,428 basehttp 18280 12120 "GET /admin/dz2app/order/ HTTP/1.1" 500 444999
+INFO 2024-04-05 23:38:38,760 basehttp 18280 12120 "GET /admin/dz2app/product/12/change/ HTTP/1.1" 200 15275
+INFO 2024-04-05 23:38:43,521 basehttp 18280 12120 "GET /admin/dz2app/customer/ HTTP/1.1" 200 16538
+INFO 2024-04-05 23:38:43,580 basehttp 18280 12120 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-05 23:38:50,560 basehttp 18280 12120 "GET /admin/dz2app/product/ HTTP/1.1" 200 18090
+INFO 2024-04-05 23:38:50,605 basehttp 18280 12120 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-05 23:55:51,330 autoreload 18280 8904 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\models.py changed, reloading.
+INFO 2024-04-05 23:55:51,909 autoreload 11140 1988 Watching for file changes with StatReloader
+INFO 2024-04-05 23:55:58,522 basehttp 11140 23372 "GET /admin/dz2app/order/ HTTP/1.1" 200 59418
+INFO 2024-04-05 23:55:58,593 basehttp 11140 23372 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:18:44,841 autoreload 11140 1988 M:\РАБОТА МИША\Курс Python\django\seminars\tasksapp\admin.py changed, reloading.
+INFO 2024-04-06 00:18:45,593 autoreload 23816 23940 Watching for file changes with StatReloader
+INFO 2024-04-06 00:22:28,206 autoreload 3604 8564 Watching for file changes with StatReloader
+INFO 2024-04-06 00:22:37,449 basehttp 3604 5528 "GET /admin/dz2app/product/ HTTP/1.1" 200 18090
+INFO 2024-04-06 00:22:42,063 basehttp 3604 5528 "GET /admin/tasksapp/throws/ HTTP/1.1" 200 26585
+INFO 2024-04-06 00:22:42,122 basehttp 3604 5528 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:23:32,057 autoreload 3604 8564 M:\РАБОТА МИША\Курс Python\django\seminars\tasksapp\admin.py changed, reloading.
+INFO 2024-04-06 00:23:32,665 autoreload 13760 24168 Watching for file changes with StatReloader
+INFO 2024-04-06 00:23:39,292 basehttp 13760 23048 "GET /admin/tasksapp/throws/ HTTP/1.1" 200 26585
+INFO 2024-04-06 00:23:39,343 basehttp 13760 23048 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:23:42,286 basehttp 13760 23048 "GET /admin/tasksapp/throws/ HTTP/1.1" 200 26585
+INFO 2024-04-06 00:23:42,328 basehttp 13760 23048 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:23:45,735 basehttp 13760 23048 "GET /admin/tasksapp/numbers/ HTTP/1.1" 200 18052
+INFO 2024-04-06 00:23:45,796 basehttp 13760 23048 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:23:47,183 basehttp 13760 23048 "GET /admin/tasksapp/throws/ HTTP/1.1" 200 26585
+INFO 2024-04-06 00:23:47,227 basehttp 13760 23048 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:24:11,497 autoreload 13760 24168 M:\РАБОТА МИША\Курс Python\django\seminars\tasksapp\admin.py changed, reloading.
+INFO 2024-04-06 00:24:12,090 autoreload 7936 21920 Watching for file changes with StatReloader
+INFO 2024-04-06 00:24:16,032 basehttp 7936 2732 "GET /admin/tasksapp/throws/ HTTP/1.1" 200 26466
+INFO 2024-04-06 00:24:16,076 basehttp 7936 2732 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:24:28,745 autoreload 7936 21920 M:\РАБОТА МИША\Курс Python\django\seminars\tasksapp\admin.py changed, reloading.
+INFO 2024-04-06 00:24:29,346 autoreload 22792 22568 Watching for file changes with StatReloader
+INFO 2024-04-06 00:24:31,763 basehttp 22792 3756 "GET /admin/tasksapp/throws/ HTTP/1.1" 200 26467
+INFO 2024-04-06 00:24:31,813 basehttp 22792 3756 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:25:02,914 autoreload 22792 22568 M:\РАБОТА МИША\Курс Python\django\seminars\tasksapp\admin.py changed, reloading.
+INFO 2024-04-06 00:25:03,671 autoreload 18480 20316 Watching for file changes with StatReloader
+INFO 2024-04-06 00:26:09,634 autoreload 18480 20316 M:\РАБОТА МИША\Курс Python\django\seminars\tasksapp\admin.py changed, reloading.
+INFO 2024-04-06 00:26:10,216 autoreload 2448 10932 Watching for file changes with StatReloader
+INFO 2024-04-06 00:26:17,968 basehttp 2448 22732 "GET /admin/tasksapp/throws/ HTTP/1.1" 200 26467
+INFO 2024-04-06 00:26:18,020 basehttp 2448 22732 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:26:20,022 basehttp 2448 22732 "GET /admin/tasksapp/bones/ HTTP/1.1" 200 26792
+INFO 2024-04-06 00:26:20,086 basehttp 2448 22732 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:26:27,138 basehttp 2448 22732 "GET /admin/tasksapp/numbers/ HTTP/1.1" 200 18260
+INFO 2024-04-06 00:26:27,199 basehttp 2448 22732 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:31:44,741 autoreload 2448 10932 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\admin.py changed, reloading.
+INFO 2024-04-06 00:31:45,354 autoreload 7092 5628 Watching for file changes with StatReloader
+INFO 2024-04-06 00:32:39,356 autoreload 7092 5628 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\admin.py changed, reloading.
+INFO 2024-04-06 00:32:39,942 autoreload 2480 15976 Watching for file changes with StatReloader
+INFO 2024-04-06 00:33:29,647 autoreload 2480 15976 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\admin.py changed, reloading.
+INFO 2024-04-06 00:33:30,210 autoreload 15988 19184 Watching for file changes with StatReloader
+INFO 2024-04-06 00:33:57,942 autoreload 15988 19184 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\admin.py changed, reloading.
+INFO 2024-04-06 00:33:58,500 autoreload 22812 14556 Watching for file changes with StatReloader
+INFO 2024-04-06 00:34:09,000 basehttp 22812 8588 "GET /admin/tasksapp/numbers/ HTTP/1.1" 200 18260
+INFO 2024-04-06 00:34:09,062 basehttp 22812 8588 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:34:11,495 basehttp 22812 8588 "GET /admin/dz2app/order/ HTTP/1.1" 200 80963
+INFO 2024-04-06 00:34:11,558 basehttp 22812 8588 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:34:25,445 basehttp 22812 8588 "GET /admin/dz2app/product/ HTTP/1.1" 200 20121
+INFO 2024-04-06 00:34:25,493 basehttp 22812 8588 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:34:30,365 basehttp 22812 8588 "GET /admin/dz2app/customer/ HTTP/1.1" 200 19233
+INFO 2024-04-06 00:34:30,424 basehttp 22812 8588 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:34:58,439 autoreload 22812 14556 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\admin.py changed, reloading.
+INFO 2024-04-06 00:34:59,110 autoreload 20468 22692 Watching for file changes with StatReloader
+INFO 2024-04-06 00:35:21,637 autoreload 20468 22692 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\admin.py changed, reloading.
+INFO 2024-04-06 00:35:22,209 autoreload 17928 22952 Watching for file changes with StatReloader
+INFO 2024-04-06 00:35:28,153 basehttp 17928 23972 "GET /admin/dz2app/order/ HTTP/1.1" 200 80963
+INFO 2024-04-06 00:35:28,208 basehttp 17928 23972 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:35:31,967 basehttp 17928 23972 "GET /admin/dz2app/order/120/change/ HTTP/1.1" 200 19213
+INFO 2024-04-06 00:35:32,031 basehttp 17928 23972 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:36:14,930 basehttp 17928 23972 "GET /admin/dz2app/order/120/change/ HTTP/1.1" 200 19213
+INFO 2024-04-06 00:36:14,977 basehttp 17928 23972 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:36:30,580 basehttp 17928 23972 "GET /admin/dz2app/order/120/change/ HTTP/1.1" 200 19213
+INFO 2024-04-06 00:36:30,623 basehttp 17928 23972 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:36:51,420 basehttp 17928 23972 "POST /admin/dz2app/order/120/change/ HTTP/1.1" 302 0
+INFO 2024-04-06 00:36:51,493 basehttp 17928 23972 "GET /admin/dz2app/order/ HTTP/1.1" 200 81281
+INFO 2024-04-06 00:36:51,538 basehttp 17928 23972 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:37:13,921 basehttp 17928 23972 "POST /admin/dz2app/order/ HTTP/1.1" 200 10479
+INFO 2024-04-06 00:37:24,426 basehttp 17928 23972 "POST /admin/dz2app/order/ HTTP/1.1" 302 0
+INFO 2024-04-06 00:37:24,497 basehttp 17928 23972 "GET /admin/dz2app/order/ HTTP/1.1" 200 80331
+INFO 2024-04-06 00:37:24,538 basehttp 17928 23972 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:37:31,593 basehttp 17928 23972 "GET /admin/dz2app/order/124/change/ HTTP/1.1" 200 19222
+INFO 2024-04-06 00:37:31,659 basehttp 17928 23972 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:37:43,166 basehttp 17928 23972 "POST /admin/dz2app/order/124/change/ HTTP/1.1" 302 0
+INFO 2024-04-06 00:37:43,238 basehttp 17928 23972 "GET /admin/dz2app/order/ HTTP/1.1" 200 80508
+INFO 2024-04-06 00:37:43,283 basehttp 17928 23972 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:37:46,835 basehttp 17928 23972 "GET /admin/dz2app/order/124/change/ HTTP/1.1" 200 19201
+INFO 2024-04-06 00:37:46,900 basehttp 17928 23972 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:38:01,988 basehttp 17928 23972 "GET /admin/dz2app/product/add/?_to_field=id&_popup=1 HTTP/1.1" 200 7807
+INFO 2024-04-06 00:38:02,027 basehttp 17928 23972 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:38:24,389 basehttp 17928 23972 "POST /admin/dz2app/order/124/change/ HTTP/1.1" 302 0
+INFO 2024-04-06 00:38:24,417 basehttp 17928 23972 "GET /admin/dz2app/order/124/change/ HTTP/1.1" 200 19606
+INFO 2024-04-06 00:38:24,458 basehttp 17928 23972 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:39:24,828 basehttp 17928 23972 "GET /admin/dz2app/customer/ HTTP/1.1" 200 19233
+INFO 2024-04-06 00:39:24,895 basehttp 17928 23972 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:39:27,640 basehttp 17928 23972 "GET /admin/dz2app/customer/36/change/ HTTP/1.1" 200 13842
+INFO 2024-04-06 00:39:27,683 basehttp 17928 23972 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:39:35,255 basehttp 17928 23972 "POST /admin/dz2app/customer/36/change/ HTTP/1.1" 302 0
+INFO 2024-04-06 00:39:35,276 basehttp 17928 23972 "GET /admin/dz2app/customer/36/change/ HTTP/1.1" 200 14227
+INFO 2024-04-06 00:39:35,331 basehttp 17928 23972 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:39:44,286 basehttp 17928 23972 "GET /admin/dz2app/customer/ HTTP/1.1" 200 19251
+INFO 2024-04-06 00:39:44,329 basehttp 17928 23972 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:39:48,389 basehttp 17928 23972 "GET /admin/dz2app/customer/ HTTP/1.1" 200 19251
+INFO 2024-04-06 00:39:48,432 basehttp 17928 23972 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:39:49,844 basehttp 17928 23972 "GET /admin/dz2app/customer/36/change/ HTTP/1.1" 200 13878
+INFO 2024-04-06 00:39:49,901 basehttp 17928 23972 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:40:01,887 basehttp 17928 23972 "POST /admin/dz2app/customer/36/change/ HTTP/1.1" 302 0
+INFO 2024-04-06 00:40:01,908 basehttp 17928 23972 "GET /admin/dz2app/customer/36/change/ HTTP/1.1" 200 14242
+INFO 2024-04-06 00:40:01,947 basehttp 17928 23972 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:40:11,870 basehttp 17928 23972 "GET /admin/dz2app/customer/ HTTP/1.1" 200 19257
+INFO 2024-04-06 00:40:11,931 basehttp 17928 23972 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:40:16,168 basehttp 17928 23972 "GET /admin/dz2app/customer/ HTTP/1.1" 200 19257
+INFO 2024-04-06 00:40:16,208 basehttp 17928 23972 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:40:17,676 basehttp 17928 23972 "GET /admin/dz2app/customer/36/change/ HTTP/1.1" 200 13890
+INFO 2024-04-06 00:40:17,718 basehttp 17928 23972 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:40:30,803 basehttp 17928 23972 "POST /admin/dz2app/customer/36/change/ HTTP/1.1" 302 0
+INFO 2024-04-06 00:40:30,824 basehttp 17928 23972 "GET /admin/dz2app/customer/36/change/ HTTP/1.1" 200 14242
+INFO 2024-04-06 00:40:30,879 basehttp 17928 23972 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:40:36,106 basehttp 17928 23972 "GET /admin/dz2app/customer/ HTTP/1.1" 200 19257
+INFO 2024-04-06 00:40:36,149 basehttp 17928 23972 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:40:41,792 basehttp 17928 23972 "GET /admin/dz2app/order/ HTTP/1.1" 200 80180
+INFO 2024-04-06 00:40:41,853 basehttp 17928 23972 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:40:42,813 basehttp 17928 23972 "GET /admin/dz2app/product/ HTTP/1.1" 200 20121
+INFO 2024-04-06 00:40:42,861 basehttp 17928 23972 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:41:08,468 basehttp 17928 23972 "GET /admin/dz2app/product/11/change/ HTTP/1.1" 200 14610
+INFO 2024-04-06 00:41:08,529 basehttp 17928 23972 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:41:19,734 basehttp 17928 23972 "POST /admin/dz2app/product/11/change/ HTTP/1.1" 302 0
+INFO 2024-04-06 00:41:19,776 basehttp 17928 23972 "GET /admin/dz2app/product/11/change/ HTTP/1.1" 200 15132
+INFO 2024-04-06 00:41:19,816 basehttp 17928 23972 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:41:23,886 basehttp 17928 23972 "GET /admin/dz2app/product/ HTTP/1.1" 200 20161
+INFO 2024-04-06 00:41:23,944 basehttp 17928 23972 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:41:30,600 basehttp 17928 23972 "GET /admin/dz2app/order/ HTTP/1.1" 200 80180
+INFO 2024-04-06 00:41:30,649 basehttp 17928 23972 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:41:36,669 basehttp 17928 23972 "GET /admin/dz2app/order/124/change/ HTTP/1.1" 200 19233
+INFO 2024-04-06 00:41:36,736 basehttp 17928 23972 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:42:01,048 basehttp 17928 23972 "POST /admin/dz2app/order/124/change/ HTTP/1.1" 302 0
+INFO 2024-04-06 00:42:01,075 basehttp 17928 23972 "GET /admin/dz2app/order/124/change/ HTTP/1.1" 200 19656
+INFO 2024-04-06 00:42:01,115 basehttp 17928 23972 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:42:05,947 basehttp 17928 23972 "GET /admin/dz2app/order/ HTTP/1.1" 200 80198
+INFO 2024-04-06 00:42:06,009 basehttp 17928 23972 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:42:13,117 basehttp 17928 23972 "GET /admin/dz2app/order/ HTTP/1.1" 200 80198
+INFO 2024-04-06 00:42:13,166 basehttp 17928 23972 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:42:14,492 basehttp 17928 23972 "GET /admin/dz2app/order/124/change/ HTTP/1.1" 200 19251
+INFO 2024-04-06 00:42:14,542 basehttp 17928 23972 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:42:22,774 basehttp 17928 23972 "POST /admin/dz2app/order/124/change/ HTTP/1.1" 302 0
+INFO 2024-04-06 00:42:22,800 basehttp 17928 23972 "GET /admin/dz2app/order/124/change/ HTTP/1.1" 200 19661
+INFO 2024-04-06 00:42:22,857 basehttp 17928 23972 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:42:25,230 basehttp 17928 23972 "GET /admin/dz2app/order/ HTTP/1.1" 200 80200
+INFO 2024-04-06 00:42:25,276 basehttp 17928 23972 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:42:52,627 basehttp 17928 23972 "GET /admin/dz2app/order/124/change/ HTTP/1.1" 200 19255
+INFO 2024-04-06 00:42:52,697 basehttp 17928 23972 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:43:29,533 basehttp 17928 23972 "GET /admin/auth/user/ HTTP/1.1" 200 14269
+INFO 2024-04-06 00:43:29,583 basehttp 17928 23972 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:43:32,443 basehttp 17928 23972 "GET /admin/auth/user/1/change/ HTTP/1.1" 200 26986
+INFO 2024-04-06 00:43:32,509 basehttp 17928 10832 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:43:32,583 basehttp 17928 23972 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2024-04-06 00:43:32,587 basehttp 17928 11452 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15492
+INFO 2024-04-06 00:43:32,650 basehttp 17928 10832 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2024-04-06 00:43:32,650 basehttp 17928 23972 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2024-04-06 00:43:32,651 basehttp 17928 11452 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2024-04-06 00:46:58,937 basehttp 17928 11452 "GET /admin/dz2app/order/ HTTP/1.1" 200 80200
+INFO 2024-04-06 00:46:58,996 basehttp 17928 11452 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:48:07,903 autoreload 17928 22952 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\admin.py changed, reloading.
+INFO 2024-04-06 00:48:08,511 autoreload 15356 16096 Watching for file changes with StatReloader
+INFO 2024-04-06 00:48:18,823 basehttp 15356 2452 "GET /admin/dz2app/order/ HTTP/1.1" 200 80200
+INFO 2024-04-06 00:48:18,879 basehttp 15356 2452 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:48:26,389 basehttp 15356 2452 "GET /admin/dz2app/order/67/change/ HTTP/1.1" 200 16892
+INFO 2024-04-06 00:48:26,451 basehttp 15356 2452 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:48:57,242 basehttp 15356 2452 "GET /admin/dz2app/order/67/delete/ HTTP/1.1" 200 10282
+INFO 2024-04-06 00:48:59,118 basehttp 15356 2452 "POST /admin/dz2app/order/67/delete/ HTTP/1.1" 302 0
+INFO 2024-04-06 00:48:59,195 basehttp 15356 2452 "GET /admin/dz2app/order/ HTTP/1.1" 200 79692
+INFO 2024-04-06 00:48:59,268 basehttp 15356 2452 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:49:08,874 basehttp 15356 2452 "GET /admin/dz2app/order/ HTTP/1.1" 200 79406
+INFO 2024-04-06 00:49:08,926 basehttp 15356 2452 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:49:13,111 basehttp 15356 2452 "GET /admin/dz2app/order/51/change/ HTTP/1.1" 200 16874
+INFO 2024-04-06 00:49:13,164 basehttp 15356 2452 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:49:15,254 basehttp 15356 2452 "GET /admin/dz2app/order/51/delete/ HTTP/1.1" 200 10267
+INFO 2024-04-06 00:49:16,493 basehttp 15356 2452 "POST /admin/dz2app/order/51/delete/ HTTP/1.1" 302 0
+INFO 2024-04-06 00:49:16,569 basehttp 15356 2452 "GET /admin/dz2app/order/ HTTP/1.1" 200 78901
+INFO 2024-04-06 00:49:16,620 basehttp 15356 2452 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:49:28,545 basehttp 15356 2452 "GET /admin/dz2app/order/118/change/ HTTP/1.1" 200 16882
+INFO 2024-04-06 00:49:28,608 basehttp 15356 2452 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:49:30,329 basehttp 15356 2452 "GET /admin/dz2app/order/118/delete/ HTTP/1.1" 200 10275
+INFO 2024-04-06 00:49:31,601 basehttp 15356 2452 "POST /admin/dz2app/order/118/delete/ HTTP/1.1" 302 0
+INFO 2024-04-06 00:49:31,676 basehttp 15356 2452 "GET /admin/dz2app/order/ HTTP/1.1" 200 78112
+INFO 2024-04-06 00:49:31,744 basehttp 15356 2452 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:49:51,988 basehttp 15356 2452 "GET /admin/dz2app/order/124/change/ HTTP/1.1" 200 16901
+INFO 2024-04-06 00:49:52,039 basehttp 15356 2452 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:50:22,460 basehttp 15356 2452 "GET /admin/dz2app/customer/ HTTP/1.1" 200 19257
+INFO 2024-04-06 00:50:22,533 basehttp 15356 2452 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:50:23,960 basehttp 15356 2452 "GET /admin/dz2app/product/ HTTP/1.1" 200 20161
+INFO 2024-04-06 00:50:24,003 basehttp 15356 2452 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 00:50:25,682 basehttp 15356 2452 "GET /admin/dz2app/order/ HTTP/1.1" 200 77829
+INFO 2024-04-06 00:50:25,746 basehttp 15356 2452 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 01:29:30,824 autoreload 15356 16096 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\admin.py changed, reloading.
+INFO 2024-04-06 01:29:31,601 autoreload 12312 15600 Watching for file changes with StatReloader
+INFO 2024-04-06 01:30:21,503 autoreload 12312 15600 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\admin.py changed, reloading.
+INFO 2024-04-06 01:30:22,141 autoreload 21100 23384 Watching for file changes with StatReloader
+INFO 2024-04-06 01:30:53,215 autoreload 21100 23384 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\admin.py changed, reloading.
+INFO 2024-04-06 01:30:53,795 autoreload 12152 7896 Watching for file changes with StatReloader
+INFO 2024-04-06 01:31:02,170 basehttp 12152 10512 "GET /admin/dz2app/order/ HTTP/1.1" 200 77829
+INFO 2024-04-06 01:31:02,234 basehttp 12152 10512 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 01:31:04,149 basehttp 12152 10512 "GET /admin/dz2app/product/ HTTP/1.1" 200 20254
+INFO 2024-04-06 01:31:04,199 basehttp 12152 10512 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 01:31:13,415 basehttp 12152 10512 "POST /admin/dz2app/product/ HTTP/1.1" 302 0
+INFO 2024-04-06 01:31:13,440 basehttp 12152 10512 "GET /admin/dz2app/product/ HTTP/1.1" 200 20248
+INFO 2024-04-06 01:31:13,497 basehttp 12152 10512 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 01:31:29,440 basehttp 12152 10512 "GET /admin/dz2app/order/ HTTP/1.1" 200 77829
+INFO 2024-04-06 01:31:29,491 basehttp 12152 10512 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 01:31:55,152 basehttp 12152 10512 "GET /admin/dz2app/order/121/change/ HTTP/1.1" 200 16928
+INFO 2024-04-06 01:31:55,217 basehttp 12152 10512 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 01:32:46,543 basehttp 12152 10512 "GET /admin/auth/user/add/ HTTP/1.1" 200 13569
+INFO 2024-04-06 01:32:46,595 basehttp 12152 10512 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 01:34:58,550 basehttp 12152 10512 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2024-04-06 01:34:58,590 basehttp 12152 10512 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 27191
+INFO 2024-04-06 01:34:58,640 basehttp 12152 10512 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 01:34:58,710 basehttp 12152 13896 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2024-04-06 01:34:58,713 basehttp 12152 9172 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15492
+INFO 2024-04-06 01:34:58,773 basehttp 12152 13896 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2024-04-06 01:34:58,773 basehttp 12152 10512 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2024-04-06 01:34:58,773 basehttp 12152 9172 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2024-04-06 01:35:25,499 basehttp 12152 10512 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2024-04-06 01:35:25,526 basehttp 12152 10512 "GET /admin/auth/user/ HTTP/1.1" 200 15003
+INFO 2024-04-06 01:35:25,585 basehttp 12152 10512 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 01:35:34,104 basehttp 12152 10512 "GET /admin/auth/group/ HTTP/1.1" 200 10114
+INFO 2024-04-06 01:35:34,147 basehttp 12152 10512 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 01:35:37,555 basehttp 12152 10512 "GET /admin/auth/group/add/ HTTP/1.1" 200 16305
+INFO 2024-04-06 01:35:37,617 basehttp 12152 10512 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 01:36:09,671 basehttp 12152 10512 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2024-04-06 01:36:09,691 basehttp 12152 10512 "GET /admin/auth/group/ HTTP/1.1" 200 11921
+INFO 2024-04-06 01:36:09,743 basehttp 12152 10512 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 01:36:11,628 basehttp 12152 10512 "GET /admin/auth/group/1/change/ HTTP/1.1" 200 17090
+INFO 2024-04-06 01:36:11,685 basehttp 12152 10512 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 01:36:14,257 basehttp 12152 10512 "GET /admin/auth/user/ HTTP/1.1" 200 15108
+INFO 2024-04-06 01:36:14,300 basehttp 12152 10512 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 01:36:18,505 basehttp 12152 10512 "GET /admin/auth/group/ HTTP/1.1" 200 11684
+INFO 2024-04-06 01:36:18,563 basehttp 12152 10512 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 01:36:20,200 basehttp 12152 10512 "GET /admin/auth/group/1/change/ HTTP/1.1" 200 17090
+INFO 2024-04-06 01:36:20,242 basehttp 12152 10512 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 01:36:26,125 basehttp 12152 10512 "GET /admin/auth/user/ HTTP/1.1" 200 15108
+INFO 2024-04-06 01:36:26,179 basehttp 12152 10512 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 01:36:27,996 basehttp 12152 10512 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 26971
+INFO 2024-04-06 01:36:28,042 basehttp 12152 10512 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 01:36:44,311 basehttp 12152 10512 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2024-04-06 01:36:44,334 basehttp 12152 10512 "GET /admin/auth/user/ HTTP/1.1" 200 15333
+INFO 2024-04-06 01:36:44,394 basehttp 12152 10512 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 01:36:45,905 basehttp 12152 10512 "GET /admin/auth/user/1/change/ HTTP/1.1" 200 27051
+INFO 2024-04-06 01:36:45,949 basehttp 12152 10512 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 01:36:59,537 basehttp 12152 10512 "POST /admin/auth/user/1/change/ HTTP/1.1" 302 0
+INFO 2024-04-06 01:36:59,559 basehttp 12152 10512 "GET /admin/auth/user/ HTTP/1.1" 200 15336
+INFO 2024-04-06 01:36:59,620 basehttp 12152 10512 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 01:37:05,761 basehttp 12152 10512 "GET /admin/dz2app/product/ HTTP/1.1" 200 20248
+INFO 2024-04-06 01:37:05,804 basehttp 12152 10512 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-06 01:38:50,897 basehttp 12152 10512 "GET /dz2app/orders_by_days/26 HTTP/1.1" 301 0
+INFO 2024-04-06 01:38:50,929 basehttp 12152 13896 "GET /dz2app/orders_by_days/26/ HTTP/1.1" 200 1525
+INFO 2024-04-06 01:39:47,199 basehttp 12152 13896 "GET /dz2app/orders_by_days/31/ HTTP/1.1" 200 2972
