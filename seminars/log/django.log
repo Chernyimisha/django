@@ -4350,3 +4350,552 @@ INFO 2024-04-06 01:37:05,804 basehttp 12152 10512 "GET /admin/jsi18n/ HTTP/1.1" 
 INFO 2024-04-06 01:38:50,897 basehttp 12152 10512 "GET /dz2app/orders_by_days/26 HTTP/1.1" 301 0
 INFO 2024-04-06 01:38:50,929 basehttp 12152 13896 "GET /dz2app/orders_by_days/26/ HTTP/1.1" 200 1525
 INFO 2024-04-06 01:39:47,199 basehttp 12152 13896 "GET /dz2app/orders_by_days/31/ HTTP/1.1" 200 2972
+INFO 2024-04-11 13:05:21,412 autoreload 17280 9348 Watching for file changes with StatReloader
+WARNING 2024-04-11 13:05:35,322 log 17280 26872 Not Found: /
+WARNING 2024-04-11 13:05:35,322 basehttp 17280 26872 "GET / HTTP/1.1" 404 2277
+ERROR 2024-04-11 13:05:57,769 log 17280 26872 Internal Server Error: /dz2app/orders_by_days/31/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\views.py", line 66, in read_orders_customer_by_days
+    view_products = Order.get_product_set_orders(orders_qwery)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\models.py", line 67, in get_product_set_orders
+    count = result_view_products[f'{product.pk}']
+            ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: '4'
+ERROR 2024-04-11 13:05:57,772 basehttp 17280 26872 "GET /dz2app/orders_by_days/31/ HTTP/1.1" 500 73213
+INFO 2024-04-11 13:06:23,529 basehttp 17280 26872 "GET /dz2app/orders_by_days/31 HTTP/1.1" 301 0
+ERROR 2024-04-11 13:06:23,559 log 17280 18412 Internal Server Error: /dz2app/orders_by_days/31/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\views.py", line 66, in read_orders_customer_by_days
+    view_products = Order.get_product_set_orders(orders_qwery)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\models.py", line 67, in get_product_set_orders
+    count = result_view_products[f'{product.pk}']
+            ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: '4'
+ERROR 2024-04-11 13:06:23,561 basehttp 17280 18412 "GET /dz2app/orders_by_days/31/ HTTP/1.1" 500 73064
+ERROR 2024-04-11 13:06:35,891 log 17280 18412 Internal Server Error: /dz2app/orders_by_days/31/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\views.py", line 66, in read_orders_customer_by_days
+    view_products = Order.get_product_set_orders(orders_qwery)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\models.py", line 67, in get_product_set_orders
+    count = result_view_products[f'{product.pk}']
+            ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: '4'
+ERROR 2024-04-11 13:06:35,897 basehttp 17280 18412 "GET /dz2app/orders_by_days/31/ HTTP/1.1" 500 73201
+INFO 2024-04-11 13:08:20,209 basehttp 17280 18412 "GET /dz2app/orders_by_days_by_order/31 HTTP/1.1" 301 0
+ERROR 2024-04-11 13:08:20,255 log 17280 7828 Internal Server Error: /dz2app/orders_by_days_by_order/31/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\views.py", line 41, in read_orders_customer_by_days_by_order
+    orders_7_days[order] = order.get_product().split('\n')
+                           ^^^^^^^^^^^^^^^^^^^
+  File "M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\models.py", line 45, in get_product
+    count = view_products[f'{product.pk}']
+            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: '4'
+ERROR 2024-04-11 13:08:20,257 basehttp 17280 7828 "GET /dz2app/orders_by_days_by_order/31/ HTTP/1.1" 500 84188
+INFO 2024-04-11 13:08:33,977 basehttp 17280 7828 "GET /dz2app/orders_by_days_by_order/23/ HTTP/1.1" 200 3995
+INFO 2024-04-11 13:09:45,405 basehttp 17280 7828 "GET /dz2app/orders_by_days_by_order/24/ HTTP/1.1" 200 12311
+ERROR 2024-04-11 13:10:56,275 log 17280 7828 Internal Server Error: /dz2app/orders_by_days_by_order/31/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\views.py", line 41, in read_orders_customer_by_days_by_order
+    orders_7_days[order] = order.get_product().split('\n')
+                           ^^^^^^^^^^^^^^^^^^^
+  File "M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\models.py", line 45, in get_product
+    count = view_products[f'{product.pk}']
+            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: '4'
+ERROR 2024-04-11 13:10:56,278 basehttp 17280 7828 "GET /dz2app/orders_by_days_by_order/31/ HTTP/1.1" 500 84189
+INFO 2024-04-11 13:11:33,592 basehttp 17280 7828 "GET /dz2app/orders_by_days_by_order/28 HTTP/1.1" 301 0
+INFO 2024-04-11 13:11:33,602 basehttp 17280 27508 "GET /dz2app/orders_by_days_by_order/28/ HTTP/1.1" 200 2221
+ERROR 2024-04-11 13:12:32,670 log 17280 27508 Internal Server Error: /dz2app/orders_by_days_by_order/31/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\views.py", line 41, in read_orders_customer_by_days_by_order
+    orders_7_days[order] = order.get_product().split('\n')
+                           ^^^^^^^^^^^^^^^^^^^
+  File "M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\models.py", line 45, in get_product
+    count = view_products[f'{product.pk}']
+            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: '4'
+ERROR 2024-04-11 13:12:32,673 basehttp 17280 27508 "GET /dz2app/orders_by_days_by_order/31/ HTTP/1.1" 500 84189
+INFO 2024-04-11 13:33:47,293 autoreload 17280 9348 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\views.py changed, reloading.
+INFO 2024-04-11 13:33:48,422 autoreload 25400 8004 Watching for file changes with StatReloader
+ERROR 2024-04-11 13:33:51,556 log 25400 22284 Internal Server Error: /dz2app/orders_by_days_by_order/31/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\views.py", line 42, in read_orders_customer_by_days_by_order
+    orders_7_days[order] = order.get_product().split('\n')
+                           ^^^^^^^^^^^^^^^^^^^
+  File "M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\models.py", line 45, in get_product
+    count = view_products[f'{product.pk}']
+            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: '4'
+ERROR 2024-04-11 13:33:51,558 basehttp 25400 22284 "GET /dz2app/orders_by_days_by_order/31/ HTTP/1.1" 500 84318
+INFO 2024-04-11 13:35:52,220 autoreload 25400 8004 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\views.py changed, reloading.
+INFO 2024-04-11 13:35:52,811 autoreload 27708 2752 Watching for file changes with StatReloader
+ERROR 2024-04-11 13:35:53,949 log 27708 12072 Internal Server Error: /dz2app/orders_by_days_by_order/31/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\views.py", line 43, in read_orders_customer_by_days_by_order
+    orders_7_days[order] = order.get_product().split('\n')
+                           ^^^^^^^^^^^^^^^^^^^
+  File "M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\models.py", line 45, in get_product
+    count = view_products[f'{product.pk}']
+            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: '4'
+ERROR 2024-04-11 13:35:53,952 basehttp 27708 12072 "GET /dz2app/orders_by_days_by_order/31/ HTTP/1.1" 500 84318
+INFO 2024-04-11 13:37:10,198 autoreload 27708 2752 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\views.py changed, reloading.
+INFO 2024-04-11 13:37:10,773 autoreload 10608 6016 Watching for file changes with StatReloader
+ERROR 2024-04-11 13:37:15,533 log 10608 28876 Internal Server Error: /dz2app/orders_by_days_by_order/31/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\views.py", line 43, in read_orders_customer_by_days_by_order
+    orders_7_days[order] = order.get_product().split('\n')
+                           ^^^^^^^^^^^^^^^^^^^
+  File "M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\models.py", line 45, in get_product
+    count = view_products[f'{product.pk}']
+            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: '4'
+ERROR 2024-04-11 13:37:15,535 basehttp 10608 28876 "GET /dz2app/orders_by_days_by_order/31/ HTTP/1.1" 500 84318
+INFO 2024-04-11 13:38:20,097 autoreload 10608 6016 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\views.py changed, reloading.
+INFO 2024-04-11 13:38:20,662 autoreload 30336 16400 Watching for file changes with StatReloader
+ERROR 2024-04-11 13:38:22,677 log 30336 23756 Internal Server Error: /dz2app/orders_by_days_by_order/31/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\views.py", line 44, in read_orders_customer_by_days_by_order
+    orders_7_days[order] = order.get_product().split('\n')
+                           ^^^^^^^^^^^^^^^^^^^
+  File "M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\models.py", line 45, in get_product
+    count = view_products[f'{product.pk}']
+            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: '4'
+ERROR 2024-04-11 13:38:22,680 basehttp 30336 23756 "GET /dz2app/orders_by_days_by_order/31/ HTTP/1.1" 500 84318
+INFO 2024-04-11 13:42:58,396 basehttp 30336 23756 "GET /admin HTTP/1.1" 301 0
+INFO 2024-04-11 13:42:58,423 basehttp 30336 25296 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-04-11 13:42:58,506 basehttp 30336 25296 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-04-11 13:42:58,549 basehttp 30336 25296 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-04-11 13:42:58,551 basehttp 30336 24072 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-04-11 13:42:58,551 basehttp 30336 30080 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-04-11 13:42:58,552 basehttp 30336 30712 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-04-11 13:42:58,594 basehttp 30336 30080 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-04-11 13:42:58,599 basehttp 30336 30712 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-04-11 13:42:58,615 basehttp 30336 19204 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+ERROR 2024-04-11 13:43:07,380 log 30336 19204 Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\base\base.py", line 299, in _commit
+    return self.connection.commit()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\admin\sites.py", line 440, in login
+    return LoginView.as_view(**defaults)(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\debug.py", line 143, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\auth\views.py", line 88, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\edit.py", line 151, in post
+    return self.form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\auth\views.py", line 107, in form_valid
+    auth_login(self.request, form.get_user())
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\auth\__init__.py", line 126, in login
+    request.session.cycle_key()
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\sessions\backends\base.py", line 304, in cycle_key
+    self.create()
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\sessions\backends\db.py", line 54, in create
+    self.save(must_create=True)
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\sessions\backends\db.py", line 85, in save
+    with transaction.atomic(using=using):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\transaction.py", line 263, in __exit__
+    connection.commit()
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\base\base.py", line 323, in commit
+    self._commit()
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\base\base.py", line 298, in _commit
+    with debug_transaction(self, "COMMIT"), self.wrap_database_errors:
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\base\base.py", line 299, in _commit
+    return self.connection.commit()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: database is locked
+ERROR 2024-04-11 13:43:07,390 basehttp 30336 19204 "POST /admin/login/?next=/admin/ HTTP/1.1" 500 187134
+ERROR 2024-04-11 13:43:13,493 log 30336 30712 Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\base\base.py", line 299, in _commit
+    return self.connection.commit()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\admin\sites.py", line 440, in login
+    return LoginView.as_view(**defaults)(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\debug.py", line 143, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\auth\views.py", line 88, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\edit.py", line 151, in post
+    return self.form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\auth\views.py", line 107, in form_valid
+    auth_login(self.request, form.get_user())
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\auth\__init__.py", line 126, in login
+    request.session.cycle_key()
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\sessions\backends\base.py", line 304, in cycle_key
+    self.create()
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\sessions\backends\db.py", line 54, in create
+    self.save(must_create=True)
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\sessions\backends\db.py", line 85, in save
+    with transaction.atomic(using=using):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\transaction.py", line 263, in __exit__
+    connection.commit()
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\base\base.py", line 323, in commit
+    self._commit()
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\base\base.py", line 298, in _commit
+    with debug_transaction(self, "COMMIT"), self.wrap_database_errors:
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\base\base.py", line 299, in _commit
+    return self.connection.commit()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: database is locked
+ERROR 2024-04-11 13:43:13,500 basehttp 30336 30712 "POST /admin/login/?next=/admin/ HTTP/1.1" 500 187134
+ERROR 2024-04-11 13:43:40,700 log 30336 30712 Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\base\base.py", line 299, in _commit
+    return self.connection.commit()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\admin\sites.py", line 440, in login
+    return LoginView.as_view(**defaults)(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\debug.py", line 143, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\auth\views.py", line 88, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\edit.py", line 151, in post
+    return self.form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\auth\views.py", line 107, in form_valid
+    auth_login(self.request, form.get_user())
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\auth\__init__.py", line 126, in login
+    request.session.cycle_key()
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\sessions\backends\base.py", line 304, in cycle_key
+    self.create()
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\sessions\backends\db.py", line 54, in create
+    self.save(must_create=True)
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\sessions\backends\db.py", line 85, in save
+    with transaction.atomic(using=using):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\transaction.py", line 263, in __exit__
+    connection.commit()
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\base\base.py", line 323, in commit
+    self._commit()
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\base\base.py", line 298, in _commit
+    with debug_transaction(self, "COMMIT"), self.wrap_database_errors:
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\base\base.py", line 299, in _commit
+    return self.connection.commit()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: database is locked
+ERROR 2024-04-11 13:43:40,709 basehttp 30336 30712 "POST /admin/login/?next=/admin/ HTTP/1.1" 500 187134
+INFO 2024-04-11 13:43:50,374 basehttp 30336 30712 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-04-11 13:43:50,411 basehttp 30336 30712 "GET /admin/ HTTP/1.1" 200 13289
+INFO 2024-04-11 13:43:50,450 basehttp 30336 30712 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2024-04-11 13:43:50,498 basehttp 30336 24072 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2024-04-11 13:43:50,498 basehttp 30336 30712 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2024-04-11 13:43:50,498 basehttp 30336 30080 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+INFO 2024-04-11 13:44:06,339 basehttp 30336 30080 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 26980
+INFO 2024-04-11 13:44:06,391 basehttp 30336 30080 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2024-04-11 13:44:06,394 basehttp 30336 24072 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2024-04-11 13:44:06,398 basehttp 30336 30712 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2024-04-11 13:44:06,400 basehttp 30336 30532 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2024-04-11 13:44:06,401 basehttp 30336 21128 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2024-04-11 13:44:06,403 basehttp 30336 24072 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2024-04-11 13:44:06,410 basehttp 30336 30532 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2024-04-11 13:44:06,410 basehttp 30336 21128 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2024-04-11 13:44:06,411 basehttp 30336 30080 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2024-04-11 13:44:06,414 basehttp 30336 24072 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2024-04-11 13:44:06,421 basehttp 30336 30532 "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+INFO 2024-04-11 13:44:06,422 basehttp 30336 25296 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-11 13:44:06,422 basehttp 30336 21128 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+INFO 2024-04-11 13:44:06,425 basehttp 30336 24072 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2024-04-11 13:44:06,427 basehttp 30336 30712 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15492
+INFO 2024-04-11 13:44:06,451 basehttp 30336 30712 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2024-04-11 13:44:06,451 basehttp 30336 25296 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2024-04-11 13:44:06,534 basehttp 30336 30532 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+INFO 2024-04-11 13:44:06,534 basehttp 30336 21128 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+INFO 2024-04-11 13:44:06,540 basehttp 30336 30080 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2024-04-11 13:44:06,540 basehttp 30336 25296 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2024-04-11 13:44:06,540 basehttp 30336 24072 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2024-04-11 13:44:06,540 basehttp 30336 30712 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2024-04-11 13:44:11,313 basehttp 30336 24072 "GET /admin/auth/user/2/history/ HTTP/1.1" 200 9465
+INFO 2024-04-11 13:44:22,961 basehttp 30336 24072 "GET /admin/dz2app/customer/ HTTP/1.1" 200 19257
+INFO 2024-04-11 13:44:23,001 basehttp 30336 24072 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2024-04-11 13:44:23,006 basehttp 30336 25296 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-11 13:44:23,042 basehttp 30336 25296 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2024-04-11 13:44:23,067 basehttp 30336 25296 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2024-04-11 13:44:23,070 basehttp 30336 24072 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2024-04-11 13:44:25,454 basehttp 30336 24072 "GET /admin/dz2app/order/ HTTP/1.1" 200 77829
+INFO 2024-04-11 13:44:25,499 basehttp 30336 24072 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-11 13:45:01,905 autoreload 30336 16400 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\models.py changed, reloading.
+INFO 2024-04-11 13:45:02,525 autoreload 28776 14680 Watching for file changes with StatReloader
+WARNING 2024-04-11 13:45:11,169 log 28776 10732 Not Found: /
+WARNING 2024-04-11 13:45:11,170 basehttp 28776 10732 "GET / HTTP/1.1" 404 2277
+INFO 2024-04-11 13:45:36,286 basehttp 28776 10732 "GET /dz2app/orders_by_days_by_order/24/ HTTP/1.1" 200 12311
+ERROR 2024-04-11 13:45:39,962 log 28776 10732 Internal Server Error: /dz2app/orders_by_days_by_order/31/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\views.py", line 34, in read_orders_customer_by_days_by_order
+    print(*orders_qwery)
+  File "M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\models.py", line 76, in __str__
+    f'\nProducts:\n\t{self.get_product()}'
+                      ^^^^^^^^^^^^^^^^^^
+  File "M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\models.py", line 45, in get_product
+    count = view_products[f'{product.pk}']
+            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: '4'
+ERROR 2024-04-11 13:45:39,965 basehttp 28776 10732 "GET /dz2app/orders_by_days_by_order/31/ HTTP/1.1" 500 79109
+ERROR 2024-04-11 13:45:40,692 log 28776 10732 Internal Server Error: /dz2app/orders_by_days_by_order/31/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\views.py", line 34, in read_orders_customer_by_days_by_order
+    print(*orders_qwery)
+  File "M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\models.py", line 76, in __str__
+    f'\nProducts:\n\t{self.get_product()}'
+                      ^^^^^^^^^^^^^^^^^^
+  File "M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\models.py", line 45, in get_product
+    count = view_products[f'{product.pk}']
+            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: '4'
+ERROR 2024-04-11 13:45:40,695 basehttp 28776 10732 "GET /dz2app/orders_by_days_by_order/31/ HTTP/1.1" 500 78835
+INFO 2024-04-11 13:47:01,490 autoreload 28776 14680 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\models.py changed, reloading.
+INFO 2024-04-11 13:47:02,179 autoreload 14544 11644 Watching for file changes with StatReloader
+ERROR 2024-04-11 13:47:07,958 log 14544 14280 Internal Server Error: /dz2app/orders_by_days_by_order/31/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\views.py", line 44, in read_orders_customer_by_days_by_order
+    orders_7_days[order] = order.get_product().split('\n')
+                           ^^^^^^^^^^^^^^^^^^^
+  File "M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\models.py", line 45, in get_product
+    count = view_products[f'{product.pk}']
+            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: '4'
+ERROR 2024-04-11 13:47:07,961 basehttp 14544 14280 "GET /dz2app/orders_by_days_by_order/31/ HTTP/1.1" 500 84465
+INFO 2024-04-11 13:47:39,918 basehttp 14544 14280 "GET /admin/dz2app/order/124/change/ HTTP/1.1" 200 16898
+INFO 2024-04-11 13:47:39,967 basehttp 14544 14280 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-11 13:48:20,611 basehttp 14544 14280 "GET /admin/dz2app/order/124/delete/ HTTP/1.1" 200 10269
+INFO 2024-04-11 13:48:20,658 basehttp 14544 14280 "GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+INFO 2024-04-11 13:48:22,272 basehttp 14544 14280 "POST /admin/dz2app/order/124/delete/ HTTP/1.1" 302 0
+INFO 2024-04-11 13:48:22,360 basehttp 14544 14280 "GET /admin/dz2app/order/ HTTP/1.1" 200 77296
+INFO 2024-04-11 13:48:22,408 basehttp 14544 14280 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-11 13:48:22,452 basehttp 14544 14280 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2024-04-11 13:48:36,938 basehttp 14544 14280 "GET /dz2app/orders_by_days_by_order/31/ HTTP/1.1" 200 7650
+INFO 2024-04-11 13:48:53,190 basehttp 14544 14280 "GET /dz2app/orders_by_days_by_order/310/ HTTP/1.1" 200 536
+INFO 2024-04-11 13:49:28,461 autoreload 14544 11644 M:\РАБОТА МИША\Курс Python\django\seminars\dz2app\models.py changed, reloading.
+INFO 2024-04-11 13:49:29,087 autoreload 29492 12184 Watching for file changes with StatReloader
