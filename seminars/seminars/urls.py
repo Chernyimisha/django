@@ -22,4 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path("tasksapp/", include("tasksapp.urls")),
     path("dz2app/", include("dz2app.urls")),
+    # path('__debug__/', include("debug_toolbar.urls")),
 ]

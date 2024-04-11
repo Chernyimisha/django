@@ -31,8 +31,6 @@ def read_orders_customer(request, pk):
 def read_orders_customer_by_days_by_order(request, pk):
     customer = Customer.objects.filter(pk=pk).first()
     orders_qwery = Order.objects.filter(customer=customer).all()
-    print(*orders_qwery)
-    print('----------------------------------------------------------------')
     orders_7_days: dict = {}
     orders_30_days: dict = {}
     orders_365_days: dict = {}

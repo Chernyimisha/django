@@ -4899,3 +4899,31 @@ INFO 2024-04-11 13:48:36,938 basehttp 14544 14280 "GET /dz2app/orders_by_days_by
 INFO 2024-04-11 13:48:53,190 basehttp 14544 14280 "GET /dz2app/orders_by_days_by_order/310/ HTTP/1.1" 200 536
 INFO 2024-04-11 13:49:28,461 autoreload 14544 11644 M:\–¿¡Œ“¿ Ã»ÿ¿\ ÛÒ Python\django\seminars\dz2app\models.py changed, reloading.
 INFO 2024-04-11 13:49:29,087 autoreload 29492 12184 Watching for file changes with StatReloader
+INFO 2024-04-11 14:01:53,161 autoreload 5648 29136 Watching for file changes with StatReloader
+INFO 2024-04-11 14:02:19,882 autoreload 10952 27080 Watching for file changes with StatReloader
+WARNING 2024-04-11 14:02:30,944 log 10952 1840 Not Found: /
+WARNING 2024-04-11 14:02:30,945 basehttp 10952 1840 "GET / HTTP/1.1" 404 2277
+WARNING 2024-04-11 14:02:40,265 log 10952 1840 Not Found: /tasksapp/
+WARNING 2024-04-11 14:02:40,266 basehttp 10952 1840 "GET /tasksapp/ HTTP/1.1" 404 4005
+WARNING 2024-04-11 14:02:55,404 log 10952 1840 Not Found: /tasksapp/tasksapp/ main
+WARNING 2024-04-11 14:02:55,405 basehttp 10952 1840 "GET /tasksapp/tasksapp/%20main HTTP/1.1" 404 4049
+WARNING 2024-04-11 14:03:03,888 log 10952 1840 Not Found: /tasksapp/tasksapp/main
+WARNING 2024-04-11 14:03:03,889 basehttp 10952 1840 "GET /tasksapp/tasksapp/main HTTP/1.1" 404 4044
+INFO 2024-04-11 14:03:35,344 basehttp 10952 1840 "GET /tasksapp/game/ HTTP/1.1" 200 945
+INFO 2024-04-11 14:03:42,800 views 10952 1840 œÓÎÛ˜ËÎË choice_game='bones', attempts=3.
+INFO 2024-04-11 14:03:43,115 views 10952 1840 3 bones successful
+INFO 2024-04-11 14:03:43,120 basehttp 10952 1840 "POST /tasksapp/game/ HTTP/1.1" 200 592
+INFO 2024-04-11 14:04:39,218 autoreload 10952 27080 M:\–¿¡Œ“¿ Ã»ÿ¿\ ÛÒ Python\django\seminars\dz2app\views.py changed, reloading.
+INFO 2024-04-11 14:04:39,770 autoreload 28020 2956 Watching for file changes with StatReloader
+INFO 2024-04-11 14:11:48,907 autoreload 18388 20436 Watching for file changes with StatReloader
+INFO 2024-04-11 14:11:57,363 basehttp 18388 6840 "GET /tasksapp/game/ HTTP/1.1" 200 10772
+INFO 2024-04-11 14:11:57,416 basehttp 18388 6840 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2024-04-11 14:11:57,419 basehttp 18388 1524 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13578
+INFO 2024-04-11 14:11:57,502 basehttp 18388 1524 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2024-04-11 14:11:57,503 basehttp 18388 6840 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+INFO 2024-04-11 14:12:34,759 views 18388 6840 œÓÎÛ˜ËÎË choice_game='throws', attempts=3.
+INFO 2024-04-11 14:12:35,271 views 18388 6840 3 throws successful
+INFO 2024-04-11 14:12:35,297 basehttp 18388 6840 "POST /tasksapp/game/ HTTP/1.1" 200 10453
+INFO 2024-04-11 14:13:33,541 basehttp 18388 6840 "GET /__debug__/render_panel/?store_id=1163aded36be48a5b9446f8ea737c929&panel_id=TemplatesPanel HTTP/1.1" 200 5700
+INFO 2024-04-11 14:23:28,756 autoreload 18388 20436 M:\–¿¡Œ“¿ Ã»ÿ¿\ ÛÒ Python\django\seminars\seminars\settings.py changed, reloading.
+INFO 2024-04-11 14:23:29,538 autoreload 22036 15820 Watching for file changes with StatReloader
